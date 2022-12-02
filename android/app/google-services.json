@@ -1,0 +1,64 @@
+{
+  "project_info": {
+    "project_number": "449778905757",
+    "firebase_url": "https://wiwsport-5a8ab-default-rtdb.firebaseio.com",
+    "project_id": "wiwsport-5a8ab",
+    "storage_bucket": "wiwsport-5a8ab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:449778905757:android:61c13de671ba7c44f2da74",
+        "android_client_info": {
+          "package_name": "com.wiwmedia.wiwsport"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "449778905757-aeekc0hv5smulro5om1s8uiv1t2lehf3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.wiwmedia.wiwsport",
+            "certificate_hash": "9a9c2ee98a55a5686af24add0fd3a41d505a608a"
+          }
+        },
+        {
+          "client_id": "449778905757-dbttjgjfvm1hho21tkahoaug9gjkl5mn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.wiwmedia.wiwsport",
+            "certificate_hash": "8c11c8280429d22f62090fba77050d3ad1e76a2a"
+          }
+        },
+        {
+          "client_id": "449778905757-u039fd55h7iid9llu9ferv713g61tk2c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAnHgb1MAyAltBZP7dagYYjbQRl5DatQA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "449778905757-u039fd55h7iid9llu9ferv713g61tk2c.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "449778905757-f9veccmlo4d0ua68gto1lpn1ev604ppi.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.wiwmedia.wiwsports"
+              }
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-9120523919163473~3676757066"
+    }
+  ],
+  "configuration_version": "1"
+}

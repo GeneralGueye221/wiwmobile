@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="Gradle: com.mixpanel.android:mixpanel-android:5.9.0@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/47b1dfdba92f36e3dddfffc2a0638288/jetified-mixpanel-android-5.9.0/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/47b1dfdba92f36e3dddfffc2a0638288/jetified-mixpanel-android-5.9.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/47b1dfdba92f36e3dddfffc2a0638288/jetified-mixpanel-android-5.9.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/47b1dfdba92f36e3dddfffc2a0638288/jetified-mixpanel-android-5.9.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mixpanel.android/mixpanel-android/5.9.0/a9a4486e8d9efcd70a4a01986208c9ae02ac0b7b/mixpanel-android-5.9.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mixpanel.android/mixpanel-android/5.9.0/3d319e55318b55b4c30e1962113000ff73c761ba/mixpanel-android-5.9.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

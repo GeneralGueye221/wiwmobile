@@ -1,0 +1,1195 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.wiwmedia.wiwsport"
+4    android:versionCode="32"
+5    android:versionName="32.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->/home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/android/app/src/main/AndroidManifest.xml:81:5-67
+11-->/home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/android/app/src/main/AndroidManifest.xml:81:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->/home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/android/app/src/main/AndroidManifest.xml:82:5-79
+12-->/home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/android/app/src/main/AndroidManifest.xml:82:22-76
+13    <uses-permission android:name="android.permission.WAKE_LOCK" />
+13-->/home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/android/app/src/main/AndroidManifest.xml:83:5-68
+13-->/home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/android/app/src/main/AndroidManifest.xml:83:22-65
+14    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+14-->/home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/android/app/src/main/AndroidManifest.xml:84:5-71
+14-->/home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/android/app/src/main/AndroidManifest.xml:84:22-68
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->/home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/android/app/src/main/AndroidManifest.xml:85:5-81
+15-->/home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/android/app/src/main/AndroidManifest.xml:85:22-78
+16    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+16-->/home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/android/app/src/main/AndroidManifest.xml:86:5-80
+16-->/home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/android/app/src/main/AndroidManifest.xml:86:22-77
+17    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+17-->[:assets_audio_player] /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/assets_audio_player/intermediates/library_manifest/release/AndroidManifest.xml:7:5-77
+17-->[:assets_audio_player] /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/assets_audio_player/intermediates/library_manifest/release/AndroidManifest.xml:7:22-74
+18    <uses-permission android:name="android.permission.VIBRATE" /> <!-- Create a unique permission for your app and use it so only your app can receive your OneSignal messages. -->
+18-->[:assets_audio_player] /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/assets_audio_player/intermediates/library_manifest/release/AndroidManifest.xml:8:5-66
+18-->[:assets_audio_player] /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/assets_audio_player/intermediates/library_manifest/release/AndroidManifest.xml:8:22-63
+19    <permission
+19-->[com.onesignal:OneSignal:3.16.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/363092dc786ea0c188be89eec2cac329/jetified-OneSignal-3.16.0/AndroidManifest.xml:7:5-9:47
+20        android:name="com.wiwmedia.wiwsport.permission.C2D_MESSAGE"
+20-->[com.onesignal:OneSignal:3.16.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/363092dc786ea0c188be89eec2cac329/jetified-OneSignal-3.16.0/AndroidManifest.xml:8:9-63
+21        android:protectionLevel="signature" />
+21-->[com.onesignal:OneSignal:3.16.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/363092dc786ea0c188be89eec2cac329/jetified-OneSignal-3.16.0/AndroidManifest.xml:9:9-44
+22
+23    <uses-permission android:name="com.wiwmedia.wiwsport.permission.C2D_MESSAGE" />
+23-->[com.onesignal:OneSignal:3.16.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/363092dc786ea0c188be89eec2cac329/jetified-OneSignal-3.16.0/AndroidManifest.xml:11:5-79
+23-->[com.onesignal:OneSignal:3.16.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/363092dc786ea0c188be89eec2cac329/jetified-OneSignal-3.16.0/AndroidManifest.xml:11:22-76
+24    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+24-->[com.onesignal:OneSignal:3.16.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/363092dc786ea0c188be89eec2cac329/jetified-OneSignal-3.16.0/AndroidManifest.xml:17:5-82
+24-->[com.onesignal:OneSignal:3.16.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/363092dc786ea0c188be89eec2cac329/jetified-OneSignal-3.16.0/AndroidManifest.xml:17:22-79
+25    <!--
+26 Use to restore notifications the user hasn't interacted with.
+27         They could be missed notifications if the user reboots their device if this isn't in place.
+28    -->
+29    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" /> <!-- START: ShortcutBadger -->
+29-->[com.onesignal:OneSignal:3.16.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/363092dc786ea0c188be89eec2cac329/jetified-OneSignal-3.16.0/AndroidManifest.xml:29:5-81
+29-->[com.onesignal:OneSignal:3.16.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/363092dc786ea0c188be89eec2cac329/jetified-OneSignal-3.16.0/AndroidManifest.xml:29:22-78
+30    <!-- Samsung -->
+31    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+31-->[com.onesignal:OneSignal:3.16.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/363092dc786ea0c188be89eec2cac329/jetified-OneSignal-3.16.0/AndroidManifest.xml:31:5-86
+31-->[com.onesignal:OneSignal:3.16.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/363092dc786ea0c188be89eec2cac329/jetified-OneSignal-3.16.0/AndroidManifest.xml:31:22-83
+32    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- HTC -->
+32-->[com.onesignal:OneSignal:3.16.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/363092dc786ea0c188be89eec2cac329/jetified-OneSignal-3.16.0/AndroidManifest.xml:32:5-87
+32-->[com.onesignal:OneSignal:3.16.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/363092dc786ea0c188be89eec2cac329/jetified-OneSignal-3.16.0/AndroidManifest.xml:32:22-84
+33    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+33-->[com.onesignal:OneSignal:3.16.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/363092dc786ea0c188be89eec2cac329/jetified-OneSignal-3.16.0/AndroidManifest.xml:33:5-81
+33-->[com.onesignal:OneSignal:3.16.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/363092dc786ea0c188be89eec2cac329/jetified-OneSignal-3.16.0/AndroidManifest.xml:33:22-78
+34    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- Sony -->
+34-->[com.onesignal:OneSignal:3.16.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/363092dc786ea0c188be89eec2cac329/jetified-OneSignal-3.16.0/AndroidManifest.xml:34:5-83
+34-->[com.onesignal:OneSignal:3.16.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/363092dc786ea0c188be89eec2cac329/jetified-OneSignal-3.16.0/AndroidManifest.xml:34:22-80
+35    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+35-->[com.onesignal:OneSignal:3.16.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/363092dc786ea0c188be89eec2cac329/jetified-OneSignal-3.16.0/AndroidManifest.xml:35:5-88
+35-->[com.onesignal:OneSignal:3.16.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/363092dc786ea0c188be89eec2cac329/jetified-OneSignal-3.16.0/AndroidManifest.xml:35:22-85
+36    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- Apex -->
+36-->[com.onesignal:OneSignal:3.16.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/363092dc786ea0c188be89eec2cac329/jetified-OneSignal-3.16.0/AndroidManifest.xml:36:5-92
+36-->[com.onesignal:OneSignal:3.16.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/363092dc786ea0c188be89eec2cac329/jetified-OneSignal-3.16.0/AndroidManifest.xml:36:22-89
+37    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- Solid -->
+37-->[com.onesignal:OneSignal:3.16.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/363092dc786ea0c188be89eec2cac329/jetified-OneSignal-3.16.0/AndroidManifest.xml:37:5-84
+37-->[com.onesignal:OneSignal:3.16.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/363092dc786ea0c188be89eec2cac329/jetified-OneSignal-3.16.0/AndroidManifest.xml:37:22-81
+38    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- Huawei -->
+38-->[com.onesignal:OneSignal:3.16.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/363092dc786ea0c188be89eec2cac329/jetified-OneSignal-3.16.0/AndroidManifest.xml:38:5-83
+38-->[com.onesignal:OneSignal:3.16.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/363092dc786ea0c188be89eec2cac329/jetified-OneSignal-3.16.0/AndroidManifest.xml:38:22-80
+39    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+39-->[com.onesignal:OneSignal:3.16.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/363092dc786ea0c188be89eec2cac329/jetified-OneSignal-3.16.0/AndroidManifest.xml:39:5-91
+39-->[com.onesignal:OneSignal:3.16.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/363092dc786ea0c188be89eec2cac329/jetified-OneSignal-3.16.0/AndroidManifest.xml:39:22-88
+40    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+40-->[com.onesignal:OneSignal:3.16.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/363092dc786ea0c188be89eec2cac329/jetified-OneSignal-3.16.0/AndroidManifest.xml:40:5-92
+40-->[com.onesignal:OneSignal:3.16.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/363092dc786ea0c188be89eec2cac329/jetified-OneSignal-3.16.0/AndroidManifest.xml:40:22-89
+41    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- ZUK -->
+41-->[com.onesignal:OneSignal:3.16.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/363092dc786ea0c188be89eec2cac329/jetified-OneSignal-3.16.0/AndroidManifest.xml:41:5-93
+41-->[com.onesignal:OneSignal:3.16.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/363092dc786ea0c188be89eec2cac329/jetified-OneSignal-3.16.0/AndroidManifest.xml:41:22-90
+42    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- OPPO -->
+42-->[com.onesignal:OneSignal:3.16.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/363092dc786ea0c188be89eec2cac329/jetified-OneSignal-3.16.0/AndroidManifest.xml:42:5-73
+42-->[com.onesignal:OneSignal:3.16.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/363092dc786ea0c188be89eec2cac329/jetified-OneSignal-3.16.0/AndroidManifest.xml:42:22-70
+43    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+43-->[com.onesignal:OneSignal:3.16.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/363092dc786ea0c188be89eec2cac329/jetified-OneSignal-3.16.0/AndroidManifest.xml:43:5-82
+43-->[com.onesignal:OneSignal:3.16.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/363092dc786ea0c188be89eec2cac329/jetified-OneSignal-3.16.0/AndroidManifest.xml:43:22-79
+44    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- EvMe -->
+44-->[com.onesignal:OneSignal:3.16.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/363092dc786ea0c188be89eec2cac329/jetified-OneSignal-3.16.0/AndroidManifest.xml:44:5-83
+44-->[com.onesignal:OneSignal:3.16.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/363092dc786ea0c188be89eec2cac329/jetified-OneSignal-3.16.0/AndroidManifest.xml:44:22-80
+45    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
+45-->[com.onesignal:OneSignal:3.16.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/363092dc786ea0c188be89eec2cac329/jetified-OneSignal-3.16.0/AndroidManifest.xml:45:5-88
+45-->[com.onesignal:OneSignal:3.16.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/363092dc786ea0c188be89eec2cac329/jetified-OneSignal-3.16.0/AndroidManifest.xml:45:22-85
+46    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
+46-->[com.onesignal:OneSignal:3.16.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/363092dc786ea0c188be89eec2cac329/jetified-OneSignal-3.16.0/AndroidManifest.xml:46:5-89
+46-->[com.onesignal:OneSignal:3.16.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/363092dc786ea0c188be89eec2cac329/jetified-OneSignal-3.16.0/AndroidManifest.xml:46:22-86
+47    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Android package visibility setting -->
+47-->[com.google.android.gms:play-services-measurement:18.0.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/66724a5a8d635e3fa98ffaffe2bd9253/jetified-play-services-measurement-18.0.0/AndroidManifest.xml:26:5-110
+47-->[com.google.android.gms:play-services-measurement:18.0.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/66724a5a8d635e3fa98ffaffe2bd9253/jetified-play-services-measurement-18.0.0/AndroidManifest.xml:26:22-107
+48    <queries>
+48-->[com.google.android.gms:play-services-ads-lite:19.7.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/065890470391eae504cee0ab1c2b235e/jetified-play-services-ads-lite-19.7.0/AndroidManifest.xml:27:5-43:15
+49
+50        <!-- For browser content -->
+51        <intent>
+51-->[com.google.android.gms:play-services-ads-lite:19.7.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/065890470391eae504cee0ab1c2b235e/jetified-play-services-ads-lite-19.7.0/AndroidManifest.xml:30:9-36:18
+52            <action android:name="android.intent.action.VIEW" />
+52-->/home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/android/app/src/main/AndroidManifest.xml:39:17-69
+52-->/home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/android/app/src/main/AndroidManifest.xml:39:25-66
+53
+54            <category android:name="android.intent.category.BROWSABLE" />
+54-->/home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/android/app/src/main/AndroidManifest.xml:41:17-78
+54-->/home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/android/app/src/main/AndroidManifest.xml:41:27-75
+55
+56            <data android:scheme="https" />
+56-->/home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/android/app/src/main/AndroidManifest.xml:42:17-45:23
+56-->/home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/android/app/src/main/AndroidManifest.xml:43:21-41
+57        </intent>
+58        <!-- End of browser content -->
+59        <!-- For CustomTabsService -->
+60        <intent>
+60-->[com.google.android.gms:play-services-ads-lite:19.7.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/065890470391eae504cee0ab1c2b235e/jetified-play-services-ads-lite-19.7.0/AndroidManifest.xml:30:9-36:18
+61            <action android:name="android.support.customtabs.action.CustomTabsService" />
+62        </intent>
+63        <!-- End of CustomTabsService -->
+64    </queries>
+65
+66    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+66-->[:connectivity] /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/connectivity/intermediates/library_manifest/release/AndroidManifest.xml:8:5-76
+66-->[:connectivity] /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/connectivity/intermediates/library_manifest/release/AndroidManifest.xml:8:22-73
+67
+68    <application
+68-->/home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/android/app/src/main/AndroidManifest.xml:4:5-79:19
+69        android:name="io.flutter.app.FlutterApplication"
+69-->/home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/android/app/src/main/AndroidManifest.xml:5:9-57
+70        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+70-->[androidx.core:core:1.3.1] /home/al-haj/.gradle/caches/transforms-2/files-2.1/2562efab6aae987fc97c5ebd5764d37b/core-1.3.1/AndroidManifest.xml:24:18-86
+71        android:extractNativeLibs="false"
+72        android:hardwareAccelerated="true"
+72-->/home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/android/app/src/main/AndroidManifest.xml:9:9-43
+73        android:icon="@mipmap/launcher_icon"
+73-->/home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/android/app/src/main/AndroidManifest.xml:7:9-45
+74        android:label="wiwsport"
+74-->/home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/android/app/src/main/AndroidManifest.xml:6:9-33
+75        android:networkSecurityConfig="@xml/network_security_config"
+75-->/home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/android/app/src/main/AndroidManifest.xml:10:9-69
+76        android:supportsRtl="true"
+76-->[com.facebook.android:facebook-login:5.5.1] /home/al-haj/.gradle/caches/transforms-2/files-2.1/39d1a35732de250ad588dbce434bf5f2/jetified-facebook-login-5.5.1/AndroidManifest.xml:28:18-44
+77        android:usesCleartextTraffic="true" >
+77-->/home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/android/app/src/main/AndroidManifest.xml:8:9-44
+78        <activity
+78-->/home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/android/app/src/main/AndroidManifest.xml:12:9-51:20
+79            android:name="com.wiwmedia.wiwsport.MainActivity"
+79-->/home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/android/app/src/main/AndroidManifest.xml:13:13-41
+80            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+80-->/home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/android/app/src/main/AndroidManifest.xml:17:13-163
+81            android:hardwareAccelerated="true"
+81-->/home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/android/app/src/main/AndroidManifest.xml:18:13-47
+82            android:launchMode="singleTop"
+82-->/home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/android/app/src/main/AndroidManifest.xml:14:13-43
+83            android:screenOrientation="portrait"
+83-->/home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/android/app/src/main/AndroidManifest.xml:16:13-49
+84            android:theme="@style/LaunchTheme"
+84-->/home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/android/app/src/main/AndroidManifest.xml:15:13-47
+85            android:windowSoftInputMode="adjustResize" >
+85-->/home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/android/app/src/main/AndroidManifest.xml:19:13-55
+86
+87            <!--
+88                 Specifies an Android theme to apply to this Activity as soon as
+89                 the Android process has started. This theme is visible to the user
+90                 while the Flutter UI initializes. After that, this theme continues
+91                 to determine the Window background behind the Flutter UI.
+92            -->
+93            <meta-data
+93-->/home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/android/app/src/main/AndroidManifest.xml:24:13-27:19
+94                android:name="io.flutter.embedding.android.NormalTheme"
+94-->/home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/android/app/src/main/AndroidManifest.xml:25:17-72
+95                android:resource="@style/NormalTheme" />
+95-->/home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/android/app/src/main/AndroidManifest.xml:26:17-54
+96
+97            <!--
+98                 Displays an Android View that continues showing the launch screen
+99                 Drawable until Flutter paints its first frame, then this splash
+100                 screen fades out. A splash screen is useful to avoid any visual
+101                 gap between the end of Android's launch screen and the painting of
+102                 Flutter's first frame.
+103            -->
+104            <meta-data
+104-->/home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/android/app/src/main/AndroidManifest.xml:34:13-37:19
+105                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+105-->/home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/android/app/src/main/AndroidManifest.xml:35:17-81
+106                android:resource="@drawable/launch_background" />
+106-->/home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/android/app/src/main/AndroidManifest.xml:36:17-63
+107
+108            <intent-filter>
+108-->/home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/android/app/src/main/AndroidManifest.xml:38:13-46:29
+109                <action android:name="android.intent.action.VIEW" />
+109-->/home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/android/app/src/main/AndroidManifest.xml:39:17-69
+109-->/home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/android/app/src/main/AndroidManifest.xml:39:25-66
+110
+111                <category android:name="android.intent.category.DEFAULT" />
+111-->/home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/android/app/src/main/AndroidManifest.xml:40:17-76
+111-->/home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/android/app/src/main/AndroidManifest.xml:40:27-73
+112                <category android:name="android.intent.category.BROWSABLE" />
+112-->/home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/android/app/src/main/AndroidManifest.xml:41:17-78
+112-->/home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/android/app/src/main/AndroidManifest.xml:41:27-75
+113
+114                <data
+114-->/home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/android/app/src/main/AndroidManifest.xml:42:17-45:23
+115                    android:host=""
+115-->/home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/android/app/src/main/AndroidManifest.xml:44:21-36
+116                    android:scheme="wiw" />
+116-->/home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/android/app/src/main/AndroidManifest.xml:43:21-41
+117            </intent-filter>
+118            <intent-filter>
+118-->/home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/android/app/src/main/AndroidManifest.xml:47:13-50:29
+119                <action android:name="android.intent.action.MAIN" />
+119-->/home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/android/app/src/main/AndroidManifest.xml:48:17-68
+119-->/home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/android/app/src/main/AndroidManifest.xml:48:25-66
+120
+121                <category android:name="android.intent.category.LAUNCHER" />
+121-->/home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/android/app/src/main/AndroidManifest.xml:49:17-76
+121-->/home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/android/app/src/main/AndroidManifest.xml:49:27-74
+122            </intent-filter>
+123        </activity>
+124        <!--
+125             Don't delete the meta-data below.
+126             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+127        -->
+128        <meta-data
+128-->/home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/android/app/src/main/AndroidManifest.xml:54:9-56:33
+129            android:name="flutterEmbedding"
+129-->/home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/android/app/src/main/AndroidManifest.xml:55:13-44
+130            android:value="2" />
+130-->/home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/android/app/src/main/AndroidManifest.xml:56:13-30
+131        <meta-data
+131-->/home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/android/app/src/main/AndroidManifest.xml:57:9-59:69
+132            android:name="com.google.android.gms.ads.APPLICATION_ID"
+132-->/home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/android/app/src/main/AndroidManifest.xml:58:13-69
+133            android:value="ca-app-pub-9120523919163473~3676757066" />
+133-->/home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/android/app/src/main/AndroidManifest.xml:59:13-67
+134        <meta-data
+134-->/home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/android/app/src/main/AndroidManifest.xml:61:9-96
+135            android:name="firebase_analytics_collection_enabled"
+135-->/home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/android/app/src/main/AndroidManifest.xml:61:20-72
+136            android:value="true" />
+136-->/home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/android/app/src/main/AndroidManifest.xml:61:73-93
+137        <meta-data
+137-->/home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/android/app/src/main/AndroidManifest.xml:63:9-64:70
+138            android:name="com.mixpanel.android.MPConfig.EventsEndpoint"
+138-->/home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/android/app/src/main/AndroidManifest.xml:63:20-79
+139            android:value="https://api-eu.mixpanel.com/track?ip=1" />
+139-->/home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/android/app/src/main/AndroidManifest.xml:64:13-67
+140        <meta-data
+140-->/home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/android/app/src/main/AndroidManifest.xml:65:9-66:71
+141            android:name="com.mixpanel.android.MPConfig.PeopleEndpoint"
+141-->/home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/android/app/src/main/AndroidManifest.xml:65:20-79
+142            android:value="https://api-eu.mixpanel.com/engage?ip=1" />
+142-->/home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/android/app/src/main/AndroidManifest.xml:66:13-68
+143        <meta-data
+143-->/home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/android/app/src/main/AndroidManifest.xml:67:9-68:66
+144            android:name="com.mixpanel.android.MPConfig.GroupsEndpoint"
+144-->/home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/android/app/src/main/AndroidManifest.xml:67:20-79
+145            android:value="https://api-eu.mixpanel.com/groups" />
+145-->/home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/android/app/src/main/AndroidManifest.xml:68:13-63
+146        <meta-data
+146-->/home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/android/app/src/main/AndroidManifest.xml:70:9-107
+147            android:name="com.facebook.sdk.ApplicationId"
+147-->/home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/android/app/src/main/AndroidManifest.xml:70:20-65
+148            android:value="@string/facebook_app_id" />
+148-->/home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/android/app/src/main/AndroidManifest.xml:70:66-105
+149
+150        <activity
+150-->/home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/android/app/src/main/AndroidManifest.xml:71:9-189
+151            android:name="com.facebook.FacebookActivity"
+151-->/home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/android/app/src/main/AndroidManifest.xml:71:19-63
+152            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+152-->/home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/android/app/src/main/AndroidManifest.xml:71:64-148
+153            android:label="com.wiwmedia.wiwsport"
+153-->/home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/android/app/src/main/AndroidManifest.xml:71:149-186
+154            android:theme="@style/com_facebook_activity_theme" />
+154-->[com.facebook.android:facebook-common:5.5.1] /home/al-haj/.gradle/caches/transforms-2/files-2.1/45d4636cce8ac0022668099566f7dc94/jetified-facebook-common-5.5.1/AndroidManifest.xml:32:13-63
+155        <activity
+155-->/home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/android/app/src/main/AndroidManifest.xml:72:9-76:100
+156            android:name="com.facebook.CustomTabActivity"
+156-->/home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/android/app/src/main/AndroidManifest.xml:72:19-64
+157            android:exported="true" >
+157-->/home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/android/app/src/main/AndroidManifest.xml:72:65-88
+158            <intent-filter>
+158-->/home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/android/app/src/main/AndroidManifest.xml:72:90-76:88
+159                <action android:name="android.intent.action.VIEW" />
+159-->/home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/android/app/src/main/AndroidManifest.xml:39:17-69
+159-->/home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/android/app/src/main/AndroidManifest.xml:39:25-66
+160
+161                <category android:name="android.intent.category.DEFAULT" />
+161-->/home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/android/app/src/main/AndroidManifest.xml:40:17-76
+161-->/home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/android/app/src/main/AndroidManifest.xml:40:27-73
+162                <category android:name="android.intent.category.BROWSABLE" />
+162-->/home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/android/app/src/main/AndroidManifest.xml:41:17-78
+162-->/home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/android/app/src/main/AndroidManifest.xml:41:27-75
+163
+164                <data android:scheme="@string/fb_login_protocol_scheme" />
+164-->/home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/android/app/src/main/AndroidManifest.xml:42:17-45:23
+164-->/home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/android/app/src/main/AndroidManifest.xml:43:21-41
+165            </intent-filter>
+166        </activity>
+167
+168        <receiver android:name="com.github.florent37.assets_audio_player.notification.NotificationActionReceiver" />
+168-->[:assets_audio_player] /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/assets_audio_player/intermediates/library_manifest/release/AndroidManifest.xml:12:9-117
+168-->[:assets_audio_player] /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/assets_audio_player/intermediates/library_manifest/release/AndroidManifest.xml:12:19-114
+169        <receiver android:name="com.github.florent37.assets_audio_player.notification.CustomMediaButtonReceiver" >
+169-->[:assets_audio_player] /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/assets_audio_player/intermediates/library_manifest/release/AndroidManifest.xml:13:9-17:20
+169-->[:assets_audio_player] /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/assets_audio_player/intermediates/library_manifest/release/AndroidManifest.xml:13:19-113
+170            <intent-filter>
+170-->[:assets_audio_player] /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/assets_audio_player/intermediates/library_manifest/release/AndroidManifest.xml:14:13-16:29
+171                <action android:name="android.intent.action.MEDIA_BUTTON" />
+171-->[:assets_audio_player] /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/assets_audio_player/intermediates/library_manifest/release/AndroidManifest.xml:15:17-77
+171-->[:assets_audio_player] /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/assets_audio_player/intermediates/library_manifest/release/AndroidManifest.xml:15:25-74
+172            </intent-filter>
+173        </receiver>
+174
+175        <service
+175-->[:assets_audio_player] /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/assets_audio_player/intermediates/library_manifest/release/AndroidManifest.xml:19:9-29:19
+176            android:name="com.github.florent37.assets_audio_player.notification.NotificationService"
+176-->[:assets_audio_player] /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/assets_audio_player/intermediates/library_manifest/release/AndroidManifest.xml:20:13-101
+177            android:enabled="true"
+177-->[:assets_audio_player] /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/assets_audio_player/intermediates/library_manifest/release/AndroidManifest.xml:21:13-35
+178            android:exported="true" >
+178-->[:assets_audio_player] /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/assets_audio_player/intermediates/library_manifest/release/AndroidManifest.xml:22:13-36
+179
+180            <!--
+181            <intent-filter>
+182                <action android:name="android.intent.action.MEDIA_BUTTON" />
+183            </intent-filter>
+184            -->
+185        </service>
+186        <service
+186-->[:cloud_firestore] /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/cloud_firestore/intermediates/library_manifest/release/AndroidManifest.xml:8:9-12:19
+187            android:name="com.google.firebase.components.ComponentDiscoveryService"
+187-->[:cloud_firestore] /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/cloud_firestore/intermediates/library_manifest/release/AndroidManifest.xml:8:18-89
+188            android:directBootAware="true"
+188-->[com.google.firebase:firebase-common:19.5.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/77e8a1ab6bd3d69c13c8c02f839f11d6/jetified-firebase-common-19.5.0/AndroidManifest.xml:35:13-43
+189            android:exported="false" >
+189-->[com.google.android.gms:play-services-measurement-api:18.0.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/c2837ed56a99f25b0968474e6ce1ce53/jetified-play-services-measurement-api-18.0.0/AndroidManifest.xml:29:13-37
+190            <meta-data
+190-->[:cloud_firestore] /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/cloud_firestore/intermediates/library_manifest/release/AndroidManifest.xml:9:13-11:85
+191                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
+191-->[:cloud_firestore] /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/cloud_firestore/intermediates/library_manifest/release/AndroidManifest.xml:10:17-134
+192                android:value="com.google.firebase.components.ComponentRegistrar" />
+192-->[:cloud_firestore] /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/cloud_firestore/intermediates/library_manifest/release/AndroidManifest.xml:11:17-82
+193            <meta-data
+193-->[:firebase_auth] /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/firebase_auth/intermediates/library_manifest/release/AndroidManifest.xml:9:13-11:85
+194                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+194-->[:firebase_auth] /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/firebase_auth/intermediates/library_manifest/release/AndroidManifest.xml:10:17-124
+195                android:value="com.google.firebase.components.ComponentRegistrar" />
+195-->[:firebase_auth] /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/firebase_auth/intermediates/library_manifest/release/AndroidManifest.xml:11:17-82
+196            <meta-data
+196-->[:firebase_storage] /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/firebase_storage/intermediates/library_manifest/release/AndroidManifest.xml:9:13-11:85
+197                android:name="com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar"
+197-->[:firebase_storage] /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/firebase_storage/intermediates/library_manifest/release/AndroidManifest.xml:10:17-126
+198                android:value="com.google.firebase.components.ComponentRegistrar" />
+198-->[:firebase_storage] /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/firebase_storage/intermediates/library_manifest/release/AndroidManifest.xml:11:17-82
+199            <meta-data
+199-->[:firebase_core] /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:9:13-11:85
+200                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+200-->[:firebase_core] /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:10:17-124
+201                android:value="com.google.firebase.components.ComponentRegistrar" />
+201-->[:firebase_core] /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:11:17-82
+202            <meta-data
+202-->[:firebase_analytics] /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/firebase_analytics/intermediates/library_manifest/release/AndroidManifest.xml:13:13-15:85
+203                android:name="com.google.firebase.components:io.flutter.plugins.firebaseanalytics.FlutterFirebaseAppRegistrar"
+203-->[:firebase_analytics] /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/firebase_analytics/intermediates/library_manifest/release/AndroidManifest.xml:14:17-127
+204                android:value="com.google.firebase.components.ComponentRegistrar" />
+204-->[:firebase_analytics] /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/firebase_analytics/intermediates/library_manifest/release/AndroidManifest.xml:15:17-82
+205            <meta-data
+205-->[com.google.android.gms:play-services-measurement-api:18.0.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/c2837ed56a99f25b0968474e6ce1ce53/jetified-play-services-measurement-api-18.0.0/AndroidManifest.xml:30:13-32:85
+206                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+206-->[com.google.android.gms:play-services-measurement-api:18.0.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/c2837ed56a99f25b0968474e6ce1ce53/jetified-play-services-measurement-api-18.0.0/AndroidManifest.xml:31:17-139
+207                android:value="com.google.firebase.components.ComponentRegistrar" />
+207-->[com.google.android.gms:play-services-measurement-api:18.0.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/c2837ed56a99f25b0968474e6ce1ce53/jetified-play-services-measurement-api-18.0.0/AndroidManifest.xml:32:17-82
+208            <meta-data
+208-->[com.google.firebase:firebase-auth:20.0.1] /home/al-haj/.gradle/caches/transforms-2/files-2.1/cbc2e7d93a66540d1d470c208041effd/jetified-firebase-auth-20.0.1/AndroidManifest.xml:77:13-79:85
+209                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+209-->[com.google.firebase:firebase-auth:20.0.1] /home/al-haj/.gradle/caches/transforms-2/files-2.1/cbc2e7d93a66540d1d470c208041effd/jetified-firebase-auth-20.0.1/AndroidManifest.xml:78:17-109
+210                android:value="com.google.firebase.components.ComponentRegistrar" />
+210-->[com.google.firebase:firebase-auth:20.0.1] /home/al-haj/.gradle/caches/transforms-2/files-2.1/cbc2e7d93a66540d1d470c208041effd/jetified-firebase-auth-20.0.1/AndroidManifest.xml:79:17-82
+211            <meta-data
+211-->[com.google.firebase:firebase-firestore:22.0.1] /home/al-haj/.gradle/caches/transforms-2/files-2.1/3972b6e52165972209e4babac515a732/jetified-firebase-firestore-22.0.1/AndroidManifest.xml:20:13-22:85
+212                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+212-->[com.google.firebase:firebase-firestore:22.0.1] /home/al-haj/.gradle/caches/transforms-2/files-2.1/3972b6e52165972209e4babac515a732/jetified-firebase-firestore-22.0.1/AndroidManifest.xml:21:17-111
+213                android:value="com.google.firebase.components.ComponentRegistrar" />
+213-->[com.google.firebase:firebase-firestore:22.0.1] /home/al-haj/.gradle/caches/transforms-2/files-2.1/3972b6e52165972209e4babac515a732/jetified-firebase-firestore-22.0.1/AndroidManifest.xml:22:17-82
+214            <meta-data
+214-->[com.google.firebase:firebase-storage:19.2.1] /home/al-haj/.gradle/caches/transforms-2/files-2.1/102e4b0f633cc0084f97163bfacf3f05/jetified-firebase-storage-19.2.1/AndroidManifest.xml:33:13-35:85
+215                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+215-->[com.google.firebase:firebase-storage:19.2.1] /home/al-haj/.gradle/caches/transforms-2/files-2.1/102e4b0f633cc0084f97163bfacf3f05/jetified-firebase-storage-19.2.1/AndroidManifest.xml:34:17-107
+216                android:value="com.google.firebase.components.ComponentRegistrar" />
+216-->[com.google.firebase:firebase-storage:19.2.1] /home/al-haj/.gradle/caches/transforms-2/files-2.1/102e4b0f633cc0084f97163bfacf3f05/jetified-firebase-storage-19.2.1/AndroidManifest.xml:35:17-82
+217            <meta-data
+217-->[com.google.firebase:firebase-messaging:21.0.1] /home/al-haj/.gradle/caches/transforms-2/files-2.1/dfc3f479f21dab57fb9c449609085949/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:39:13-41:85
+218                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+218-->[com.google.firebase:firebase-messaging:21.0.1] /home/al-haj/.gradle/caches/transforms-2/files-2.1/dfc3f479f21dab57fb9c449609085949/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:40:17-119
+219                android:value="com.google.firebase.components.ComponentRegistrar" />
+219-->[com.google.firebase:firebase-messaging:21.0.1] /home/al-haj/.gradle/caches/transforms-2/files-2.1/dfc3f479f21dab57fb9c449609085949/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:41:17-82
+220            <meta-data
+220-->[com.google.firebase:firebase-datatransport:17.0.10] /home/al-haj/.gradle/caches/transforms-2/files-2.1/617fff7991551f2a574e5acb78414e22/jetified-firebase-datatransport-17.0.10/AndroidManifest.xml:28:13-30:85
+221                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+221-->[com.google.firebase:firebase-datatransport:17.0.10] /home/al-haj/.gradle/caches/transforms-2/files-2.1/617fff7991551f2a574e5acb78414e22/jetified-firebase-datatransport-17.0.10/AndroidManifest.xml:29:17-115
+222                android:value="com.google.firebase.components.ComponentRegistrar" />
+222-->[com.google.firebase:firebase-datatransport:17.0.10] /home/al-haj/.gradle/caches/transforms-2/files-2.1/617fff7991551f2a574e5acb78414e22/jetified-firebase-datatransport-17.0.10/AndroidManifest.xml:30:17-82
+223            <meta-data
+223-->[com.google.firebase:firebase-iid:21.0.1] /home/al-haj/.gradle/caches/transforms-2/files-2.1/f4b0ba5c9d5248e4003d1ce8e22fcfd6/jetified-firebase-iid-21.0.1/AndroidManifest.xml:32:13-34:85
+224                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+224-->[com.google.firebase:firebase-iid:21.0.1] /home/al-haj/.gradle/caches/transforms-2/files-2.1/f4b0ba5c9d5248e4003d1ce8e22fcfd6/jetified-firebase-iid-21.0.1/AndroidManifest.xml:33:17-96
+225                android:value="com.google.firebase.components.ComponentRegistrar" />
+225-->[com.google.firebase:firebase-iid:21.0.1] /home/al-haj/.gradle/caches/transforms-2/files-2.1/f4b0ba5c9d5248e4003d1ce8e22fcfd6/jetified-firebase-iid-21.0.1/AndroidManifest.xml:34:17-82
+226            <meta-data
+226-->[com.google.firebase:firebase-installations:16.3.5] /home/al-haj/.gradle/caches/transforms-2/files-2.1/5d44451ba509b676b0e9979b5dfee0c1/jetified-firebase-installations-16.3.5/AndroidManifest.xml:18:13-20:85
+227                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+227-->[com.google.firebase:firebase-installations:16.3.5] /home/al-haj/.gradle/caches/transforms-2/files-2.1/5d44451ba509b676b0e9979b5dfee0c1/jetified-firebase-installations-16.3.5/AndroidManifest.xml:19:17-127
+228                android:value="com.google.firebase.components.ComponentRegistrar" />
+228-->[com.google.firebase:firebase-installations:16.3.5] /home/al-haj/.gradle/caches/transforms-2/files-2.1/5d44451ba509b676b0e9979b5dfee0c1/jetified-firebase-installations-16.3.5/AndroidManifest.xml:20:17-82
+229            <!--
+230                This registrar is not defined in the dynamic-module-support sdk itself to allow non-firebase
+231                clients to use it as well, by defining this registrar in their own core/common library.
+232            -->
+233            <meta-data
+233-->[com.google.firebase:firebase-common:19.5.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/77e8a1ab6bd3d69c13c8c02f839f11d6/jetified-firebase-common-19.5.0/AndroidManifest.xml:43:13-45:85
+234                android:name="com.google.firebase.components:com.google.firebase.dynamicloading.DynamicLoadingRegistrar"
+234-->[com.google.firebase:firebase-common:19.5.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/77e8a1ab6bd3d69c13c8c02f839f11d6/jetified-firebase-common-19.5.0/AndroidManifest.xml:44:17-121
+235                android:value="com.google.firebase.components.ComponentRegistrar" />
+235-->[com.google.firebase:firebase-common:19.5.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/77e8a1ab6bd3d69c13c8c02f839f11d6/jetified-firebase-common-19.5.0/AndroidManifest.xml:45:17-82
+236        </service>
+237
+238        <activity
+238-->[com.facebook.android:audience-network-sdk:6.3.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/327d2849ef43836ce0def23cc232b26a/jetified-audience-network-sdk-6.3.0/AndroidManifest.xml:15:9-19:75
+239            android:name="com.facebook.ads.AudienceNetworkActivity"
+239-->[com.facebook.android:audience-network-sdk:6.3.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/327d2849ef43836ce0def23cc232b26a/jetified-audience-network-sdk-6.3.0/AndroidManifest.xml:16:13-68
+240            android:configChanges="keyboardHidden|orientation|screenSize"
+240-->[com.facebook.android:audience-network-sdk:6.3.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/327d2849ef43836ce0def23cc232b26a/jetified-audience-network-sdk-6.3.0/AndroidManifest.xml:17:13-74
+241            android:exported="false"
+241-->[com.facebook.android:audience-network-sdk:6.3.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/327d2849ef43836ce0def23cc232b26a/jetified-audience-network-sdk-6.3.0/AndroidManifest.xml:18:13-37
+242            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+242-->[com.facebook.android:audience-network-sdk:6.3.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/327d2849ef43836ce0def23cc232b26a/jetified-audience-network-sdk-6.3.0/AndroidManifest.xml:19:13-72
+243
+244        <provider
+244-->[com.facebook.android:audience-network-sdk:6.3.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/327d2849ef43836ce0def23cc232b26a/jetified-audience-network-sdk-6.3.0/AndroidManifest.xml:21:9-24:40
+245            android:name="com.facebook.ads.AudienceNetworkContentProvider"
+245-->[com.facebook.android:audience-network-sdk:6.3.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/327d2849ef43836ce0def23cc232b26a/jetified-audience-network-sdk-6.3.0/AndroidManifest.xml:22:13-75
+246            android:authorities="com.wiwmedia.wiwsport.AudienceNetworkContentProvider"
+246-->[com.facebook.android:audience-network-sdk:6.3.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/327d2849ef43836ce0def23cc232b26a/jetified-audience-network-sdk-6.3.0/AndroidManifest.xml:23:13-82
+247            android:exported="false" />
+247-->[com.facebook.android:audience-network-sdk:6.3.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/327d2849ef43836ce0def23cc232b26a/jetified-audience-network-sdk-6.3.0/AndroidManifest.xml:24:13-37
+248
+249        <activity
+249-->[com.google.android.gms:play-services-auth:16.0.1] /home/al-haj/.gradle/caches/transforms-2/files-2.1/6cb5cfbdbc6ad06e12e3e0812280fc3e/jetified-play-services-auth-16.0.1/AndroidManifest.xml:23:9-27:75
+250            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+250-->[com.google.android.gms:play-services-auth:16.0.1] /home/al-haj/.gradle/caches/transforms-2/files-2.1/6cb5cfbdbc6ad06e12e3e0812280fc3e/jetified-play-services-auth-16.0.1/AndroidManifest.xml:24:13-93
+251            android:excludeFromRecents="true"
+251-->[com.google.android.gms:play-services-auth:16.0.1] /home/al-haj/.gradle/caches/transforms-2/files-2.1/6cb5cfbdbc6ad06e12e3e0812280fc3e/jetified-play-services-auth-16.0.1/AndroidManifest.xml:25:13-46
+252            android:exported="false"
+252-->[com.google.android.gms:play-services-auth:16.0.1] /home/al-haj/.gradle/caches/transforms-2/files-2.1/6cb5cfbdbc6ad06e12e3e0812280fc3e/jetified-play-services-auth-16.0.1/AndroidManifest.xml:26:13-37
+253            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+253-->[com.google.android.gms:play-services-auth:16.0.1] /home/al-haj/.gradle/caches/transforms-2/files-2.1/6cb5cfbdbc6ad06e12e3e0812280fc3e/jetified-play-services-auth-16.0.1/AndroidManifest.xml:27:13-72
+254        <!--
+255            Service handling Google Sign-In user revocation. For apps that do not integrate with
+256            Google Sign-In, this service will never be started.
+257        -->
+258        <service
+258-->[com.google.android.gms:play-services-auth:16.0.1] /home/al-haj/.gradle/caches/transforms-2/files-2.1/6cb5cfbdbc6ad06e12e3e0812280fc3e/jetified-play-services-auth-16.0.1/AndroidManifest.xml:33:9-36:110
+259            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+259-->[com.google.android.gms:play-services-auth:16.0.1] /home/al-haj/.gradle/caches/transforms-2/files-2.1/6cb5cfbdbc6ad06e12e3e0812280fc3e/jetified-play-services-auth-16.0.1/AndroidManifest.xml:34:13-89
+260            android:exported="true"
+260-->[com.google.android.gms:play-services-auth:16.0.1] /home/al-haj/.gradle/caches/transforms-2/files-2.1/6cb5cfbdbc6ad06e12e3e0812280fc3e/jetified-play-services-auth-16.0.1/AndroidManifest.xml:35:13-36
+261            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+261-->[com.google.android.gms:play-services-auth:16.0.1] /home/al-haj/.gradle/caches/transforms-2/files-2.1/6cb5cfbdbc6ad06e12e3e0812280fc3e/jetified-play-services-auth-16.0.1/AndroidManifest.xml:36:13-107
+262
+263        <meta-data
+263-->[com.onesignal:OneSignal:3.16.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/363092dc786ea0c188be89eec2cac329/jetified-OneSignal-3.16.0/AndroidManifest.xml:49:9-51:51
+264            android:name="onesignal_app_id"
+264-->[com.onesignal:OneSignal:3.16.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/363092dc786ea0c188be89eec2cac329/jetified-OneSignal-3.16.0/AndroidManifest.xml:50:13-44
+265            android:value="${onesignal_app_id}" /> <!-- Deprecated - Pulled from OneSignal dashboard. -->
+265-->[com.onesignal:OneSignal:3.16.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/363092dc786ea0c188be89eec2cac329/jetified-OneSignal-3.16.0/AndroidManifest.xml:51:13-48
+266        <meta-data
+266-->[com.onesignal:OneSignal:3.16.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/363092dc786ea0c188be89eec2cac329/jetified-OneSignal-3.16.0/AndroidManifest.xml:53:9-55:70
+267            android:name="onesignal_google_project_number"
+267-->[com.onesignal:OneSignal:3.16.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/363092dc786ea0c188be89eec2cac329/jetified-OneSignal-3.16.0/AndroidManifest.xml:54:13-59
+268            android:value="str:${onesignal_google_project_number}" />
+268-->[com.onesignal:OneSignal:3.16.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/363092dc786ea0c188be89eec2cac329/jetified-OneSignal-3.16.0/AndroidManifest.xml:55:13-67
+269
+270        <receiver
+270-->[com.onesignal:OneSignal:3.16.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/363092dc786ea0c188be89eec2cac329/jetified-OneSignal-3.16.0/AndroidManifest.xml:57:9-67:20
+271            android:name="com.onesignal.GcmBroadcastReceiver"
+271-->[com.onesignal:OneSignal:3.16.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/363092dc786ea0c188be89eec2cac329/jetified-OneSignal-3.16.0/AndroidManifest.xml:58:13-62
+272            android:permission="com.google.android.c2dm.permission.SEND" >
+272-->[com.onesignal:OneSignal:3.16.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/363092dc786ea0c188be89eec2cac329/jetified-OneSignal-3.16.0/AndroidManifest.xml:59:13-73
+273
+274            <!-- High priority so OneSignal payloads can be filtered from other GCM receivers if filterOtherGCMReceivers is enabled. -->
+275            <intent-filter android:priority="999" >
+275-->[com.onesignal:OneSignal:3.16.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/363092dc786ea0c188be89eec2cac329/jetified-OneSignal-3.16.0/AndroidManifest.xml:62:13-66:29
+275-->[com.onesignal:OneSignal:3.16.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/363092dc786ea0c188be89eec2cac329/jetified-OneSignal-3.16.0/AndroidManifest.xml:62:28-50
+276                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+276-->[com.onesignal:OneSignal:3.16.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/363092dc786ea0c188be89eec2cac329/jetified-OneSignal-3.16.0/AndroidManifest.xml:63:17-81
+276-->[com.onesignal:OneSignal:3.16.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/363092dc786ea0c188be89eec2cac329/jetified-OneSignal-3.16.0/AndroidManifest.xml:63:25-78
+277
+278                <category android:name="com.wiwmedia.wiwsport" />
+278-->[com.onesignal:OneSignal:3.16.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/363092dc786ea0c188be89eec2cac329/jetified-OneSignal-3.16.0/AndroidManifest.xml:65:17-61
+278-->[com.onesignal:OneSignal:3.16.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/363092dc786ea0c188be89eec2cac329/jetified-OneSignal-3.16.0/AndroidManifest.xml:65:27-58
+279            </intent-filter>
+280        </receiver>
+281        <receiver android:name="com.onesignal.NotificationOpenedReceiver" />
+281-->[com.onesignal:OneSignal:3.16.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/363092dc786ea0c188be89eec2cac329/jetified-OneSignal-3.16.0/AndroidManifest.xml:68:9-77
+281-->[com.onesignal:OneSignal:3.16.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/363092dc786ea0c188be89eec2cac329/jetified-OneSignal-3.16.0/AndroidManifest.xml:68:19-74
+282
+283        <service
+283-->[com.onesignal:OneSignal:3.16.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/363092dc786ea0c188be89eec2cac329/jetified-OneSignal-3.16.0/AndroidManifest.xml:70:9-76:19
+284            android:name="com.onesignal.HmsMessageServiceOneSignal"
+284-->[com.onesignal:OneSignal:3.16.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/363092dc786ea0c188be89eec2cac329/jetified-OneSignal-3.16.0/AndroidManifest.xml:71:13-68
+285            android:exported="false" >
+285-->[com.onesignal:OneSignal:3.16.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/363092dc786ea0c188be89eec2cac329/jetified-OneSignal-3.16.0/AndroidManifest.xml:72:13-37
+286            <intent-filter>
+286-->[com.onesignal:OneSignal:3.16.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/363092dc786ea0c188be89eec2cac329/jetified-OneSignal-3.16.0/AndroidManifest.xml:73:13-75:29
+287                <action android:name="com.huawei.push.action.MESSAGING_EVENT" />
+287-->[com.onesignal:OneSignal:3.16.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/363092dc786ea0c188be89eec2cac329/jetified-OneSignal-3.16.0/AndroidManifest.xml:74:17-81
+287-->[com.onesignal:OneSignal:3.16.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/363092dc786ea0c188be89eec2cac329/jetified-OneSignal-3.16.0/AndroidManifest.xml:74:25-78
+288            </intent-filter>
+289        </service>
+290
+291        <activity
+291-->[com.onesignal:OneSignal:3.16.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/363092dc786ea0c188be89eec2cac329/jetified-OneSignal-3.16.0/AndroidManifest.xml:78:9-84:20
+292            android:name="com.onesignal.NotificationOpenedActivityHMS"
+292-->[com.onesignal:OneSignal:3.16.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/363092dc786ea0c188be89eec2cac329/jetified-OneSignal-3.16.0/AndroidManifest.xml:79:13-71
+293            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+293-->[com.onesignal:OneSignal:3.16.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/363092dc786ea0c188be89eec2cac329/jetified-OneSignal-3.16.0/AndroidManifest.xml:80:13-72
+294            <intent-filter>
+294-->[com.onesignal:OneSignal:3.16.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/363092dc786ea0c188be89eec2cac329/jetified-OneSignal-3.16.0/AndroidManifest.xml:81:13-83:29
+295                <action android:name="android.intent.action.VIEW" />
+295-->/home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/android/app/src/main/AndroidManifest.xml:39:17-69
+295-->/home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/android/app/src/main/AndroidManifest.xml:39:25-66
+296            </intent-filter>
+297        </activity>
+298
+299        <service android:name="com.onesignal.GcmIntentService" />
+299-->[com.onesignal:OneSignal:3.16.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/363092dc786ea0c188be89eec2cac329/jetified-OneSignal-3.16.0/AndroidManifest.xml:86:9-66
+299-->[com.onesignal:OneSignal:3.16.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/363092dc786ea0c188be89eec2cac329/jetified-OneSignal-3.16.0/AndroidManifest.xml:86:18-63
+300        <service
+300-->[com.onesignal:OneSignal:3.16.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/363092dc786ea0c188be89eec2cac329/jetified-OneSignal-3.16.0/AndroidManifest.xml:87:9-89:72
+301            android:name="com.onesignal.GcmIntentJobService"
+301-->[com.onesignal:OneSignal:3.16.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/363092dc786ea0c188be89eec2cac329/jetified-OneSignal-3.16.0/AndroidManifest.xml:88:13-61
+302            android:permission="android.permission.BIND_JOB_SERVICE" />
+302-->[com.onesignal:OneSignal:3.16.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/363092dc786ea0c188be89eec2cac329/jetified-OneSignal-3.16.0/AndroidManifest.xml:89:13-69
+303        <service
+303-->[com.onesignal:OneSignal:3.16.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/363092dc786ea0c188be89eec2cac329/jetified-OneSignal-3.16.0/AndroidManifest.xml:90:9-92:72
+304            android:name="com.onesignal.RestoreJobService"
+304-->[com.onesignal:OneSignal:3.16.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/363092dc786ea0c188be89eec2cac329/jetified-OneSignal-3.16.0/AndroidManifest.xml:91:13-59
+305            android:permission="android.permission.BIND_JOB_SERVICE" />
+305-->[com.onesignal:OneSignal:3.16.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/363092dc786ea0c188be89eec2cac329/jetified-OneSignal-3.16.0/AndroidManifest.xml:92:13-69
+306        <service
+306-->[com.onesignal:OneSignal:3.16.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/363092dc786ea0c188be89eec2cac329/jetified-OneSignal-3.16.0/AndroidManifest.xml:93:9-95:72
+307            android:name="com.onesignal.RestoreKickoffJobService"
+307-->[com.onesignal:OneSignal:3.16.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/363092dc786ea0c188be89eec2cac329/jetified-OneSignal-3.16.0/AndroidManifest.xml:94:13-66
+308            android:permission="android.permission.BIND_JOB_SERVICE" />
+308-->[com.onesignal:OneSignal:3.16.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/363092dc786ea0c188be89eec2cac329/jetified-OneSignal-3.16.0/AndroidManifest.xml:95:13-69
+309        <service
+309-->[com.onesignal:OneSignal:3.16.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/363092dc786ea0c188be89eec2cac329/jetified-OneSignal-3.16.0/AndroidManifest.xml:96:9-98:43
+310            android:name="com.onesignal.SyncService"
+310-->[com.onesignal:OneSignal:3.16.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/363092dc786ea0c188be89eec2cac329/jetified-OneSignal-3.16.0/AndroidManifest.xml:97:13-53
+311            android:stopWithTask="true" />
+311-->[com.onesignal:OneSignal:3.16.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/363092dc786ea0c188be89eec2cac329/jetified-OneSignal-3.16.0/AndroidManifest.xml:98:13-40
+312        <service
+312-->[com.onesignal:OneSignal:3.16.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/363092dc786ea0c188be89eec2cac329/jetified-OneSignal-3.16.0/AndroidManifest.xml:99:9-101:72
+313            android:name="com.onesignal.SyncJobService"
+313-->[com.onesignal:OneSignal:3.16.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/363092dc786ea0c188be89eec2cac329/jetified-OneSignal-3.16.0/AndroidManifest.xml:100:13-56
+314            android:permission="android.permission.BIND_JOB_SERVICE" />
+314-->[com.onesignal:OneSignal:3.16.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/363092dc786ea0c188be89eec2cac329/jetified-OneSignal-3.16.0/AndroidManifest.xml:101:13-69
+315
+316        <activity
+316-->[com.onesignal:OneSignal:3.16.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/363092dc786ea0c188be89eec2cac329/jetified-OneSignal-3.16.0/AndroidManifest.xml:103:9-105:75
+317            android:name="com.onesignal.PermissionsActivity"
+317-->[com.onesignal:OneSignal:3.16.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/363092dc786ea0c188be89eec2cac329/jetified-OneSignal-3.16.0/AndroidManifest.xml:104:13-61
+318            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+318-->[com.onesignal:OneSignal:3.16.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/363092dc786ea0c188be89eec2cac329/jetified-OneSignal-3.16.0/AndroidManifest.xml:105:13-72
+319
+320        <service android:name="com.onesignal.NotificationRestoreService" />
+320-->[com.onesignal:OneSignal:3.16.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/363092dc786ea0c188be89eec2cac329/jetified-OneSignal-3.16.0/AndroidManifest.xml:107:9-76
+320-->[com.onesignal:OneSignal:3.16.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/363092dc786ea0c188be89eec2cac329/jetified-OneSignal-3.16.0/AndroidManifest.xml:107:18-73
+321
+322        <receiver android:name="com.onesignal.BootUpReceiver" >
+322-->[com.onesignal:OneSignal:3.16.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/363092dc786ea0c188be89eec2cac329/jetified-OneSignal-3.16.0/AndroidManifest.xml:109:9-114:20
+322-->[com.onesignal:OneSignal:3.16.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/363092dc786ea0c188be89eec2cac329/jetified-OneSignal-3.16.0/AndroidManifest.xml:109:19-62
+323            <intent-filter>
+323-->[com.onesignal:OneSignal:3.16.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/363092dc786ea0c188be89eec2cac329/jetified-OneSignal-3.16.0/AndroidManifest.xml:110:13-113:29
+324                <action android:name="android.intent.action.BOOT_COMPLETED" />
+324-->[com.onesignal:OneSignal:3.16.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/363092dc786ea0c188be89eec2cac329/jetified-OneSignal-3.16.0/AndroidManifest.xml:111:17-79
+324-->[com.onesignal:OneSignal:3.16.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/363092dc786ea0c188be89eec2cac329/jetified-OneSignal-3.16.0/AndroidManifest.xml:111:25-76
+325                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+325-->[com.onesignal:OneSignal:3.16.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/363092dc786ea0c188be89eec2cac329/jetified-OneSignal-3.16.0/AndroidManifest.xml:112:17-82
+325-->[com.onesignal:OneSignal:3.16.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/363092dc786ea0c188be89eec2cac329/jetified-OneSignal-3.16.0/AndroidManifest.xml:112:25-79
+326            </intent-filter>
+327        </receiver>
+328        <receiver android:name="com.onesignal.UpgradeReceiver" >
+328-->[com.onesignal:OneSignal:3.16.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/363092dc786ea0c188be89eec2cac329/jetified-OneSignal-3.16.0/AndroidManifest.xml:115:9-119:20
+328-->[com.onesignal:OneSignal:3.16.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/363092dc786ea0c188be89eec2cac329/jetified-OneSignal-3.16.0/AndroidManifest.xml:115:19-63
+329            <intent-filter>
+329-->[com.onesignal:OneSignal:3.16.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/363092dc786ea0c188be89eec2cac329/jetified-OneSignal-3.16.0/AndroidManifest.xml:116:13-118:29
+330                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+330-->[com.onesignal:OneSignal:3.16.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/363092dc786ea0c188be89eec2cac329/jetified-OneSignal-3.16.0/AndroidManifest.xml:117:17-84
+330-->[com.onesignal:OneSignal:3.16.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/363092dc786ea0c188be89eec2cac329/jetified-OneSignal-3.16.0/AndroidManifest.xml:117:25-81
+331            </intent-filter>
+332        </receiver>
+333        <receiver
+333-->[com.google.android.gms:play-services-measurement:18.0.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/66724a5a8d635e3fa98ffaffe2bd9253/jetified-play-services-measurement-18.0.0/AndroidManifest.xml:29:9-33:20
+334            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+334-->[com.google.android.gms:play-services-measurement:18.0.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/66724a5a8d635e3fa98ffaffe2bd9253/jetified-play-services-measurement-18.0.0/AndroidManifest.xml:30:13-85
+335            android:enabled="true"
+335-->[com.google.android.gms:play-services-measurement:18.0.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/66724a5a8d635e3fa98ffaffe2bd9253/jetified-play-services-measurement-18.0.0/AndroidManifest.xml:31:13-35
+336            android:exported="false" >
+336-->[com.google.android.gms:play-services-measurement:18.0.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/66724a5a8d635e3fa98ffaffe2bd9253/jetified-play-services-measurement-18.0.0/AndroidManifest.xml:32:13-37
+337        </receiver>
+338
+339        <service
+339-->[com.google.android.gms:play-services-measurement:18.0.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/66724a5a8d635e3fa98ffaffe2bd9253/jetified-play-services-measurement-18.0.0/AndroidManifest.xml:35:9-38:40
+340            android:name="com.google.android.gms.measurement.AppMeasurementService"
+340-->[com.google.android.gms:play-services-measurement:18.0.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/66724a5a8d635e3fa98ffaffe2bd9253/jetified-play-services-measurement-18.0.0/AndroidManifest.xml:36:13-84
+341            android:enabled="true"
+341-->[com.google.android.gms:play-services-measurement:18.0.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/66724a5a8d635e3fa98ffaffe2bd9253/jetified-play-services-measurement-18.0.0/AndroidManifest.xml:37:13-35
+342            android:exported="false" />
+342-->[com.google.android.gms:play-services-measurement:18.0.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/66724a5a8d635e3fa98ffaffe2bd9253/jetified-play-services-measurement-18.0.0/AndroidManifest.xml:38:13-37
+343        <service
+343-->[com.google.android.gms:play-services-measurement:18.0.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/66724a5a8d635e3fa98ffaffe2bd9253/jetified-play-services-measurement-18.0.0/AndroidManifest.xml:39:9-43:72
+344            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+344-->[com.google.android.gms:play-services-measurement:18.0.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/66724a5a8d635e3fa98ffaffe2bd9253/jetified-play-services-measurement-18.0.0/AndroidManifest.xml:40:13-87
+345            android:enabled="true"
+345-->[com.google.android.gms:play-services-measurement:18.0.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/66724a5a8d635e3fa98ffaffe2bd9253/jetified-play-services-measurement-18.0.0/AndroidManifest.xml:41:13-35
+346            android:exported="false"
+346-->[com.google.android.gms:play-services-measurement:18.0.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/66724a5a8d635e3fa98ffaffe2bd9253/jetified-play-services-measurement-18.0.0/AndroidManifest.xml:42:13-37
+347            android:permission="android.permission.BIND_JOB_SERVICE" /> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+347-->[com.google.android.gms:play-services-measurement:18.0.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/66724a5a8d635e3fa98ffaffe2bd9253/jetified-play-services-measurement-18.0.0/AndroidManifest.xml:43:13-69
+348        <activity
+348-->[com.google.android.gms:play-services-ads-lite:19.7.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/065890470391eae504cee0ab1c2b235e/jetified-play-services-ads-lite-19.7.0/AndroidManifest.xml:48:9-52:64
+349            android:name="com.google.android.gms.ads.AdActivity"
+349-->[com.google.android.gms:play-services-ads-lite:19.7.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/065890470391eae504cee0ab1c2b235e/jetified-play-services-ads-lite-19.7.0/AndroidManifest.xml:49:13-65
+350            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+350-->[com.google.android.gms:play-services-ads-lite:19.7.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/065890470391eae504cee0ab1c2b235e/jetified-play-services-ads-lite-19.7.0/AndroidManifest.xml:50:13-122
+351            android:exported="false"
+351-->[com.google.android.gms:play-services-ads-lite:19.7.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/065890470391eae504cee0ab1c2b235e/jetified-play-services-ads-lite-19.7.0/AndroidManifest.xml:51:13-37
+352            android:theme="@android:style/Theme.Translucent" />
+352-->[com.google.android.gms:play-services-ads-lite:19.7.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/065890470391eae504cee0ab1c2b235e/jetified-play-services-ads-lite-19.7.0/AndroidManifest.xml:52:13-61
+353
+354        <provider
+354-->[com.google.android.gms:play-services-ads-lite:19.7.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/065890470391eae504cee0ab1c2b235e/jetified-play-services-ads-lite-19.7.0/AndroidManifest.xml:54:9-58:39
+355            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
+355-->[com.google.android.gms:play-services-ads-lite:19.7.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/065890470391eae504cee0ab1c2b235e/jetified-play-services-ads-lite-19.7.0/AndroidManifest.xml:55:13-76
+356            android:authorities="com.wiwmedia.wiwsport.mobileadsinitprovider"
+356-->[com.google.android.gms:play-services-ads-lite:19.7.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/065890470391eae504cee0ab1c2b235e/jetified-play-services-ads-lite-19.7.0/AndroidManifest.xml:56:13-73
+357            android:exported="false"
+357-->[com.google.android.gms:play-services-ads-lite:19.7.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/065890470391eae504cee0ab1c2b235e/jetified-play-services-ads-lite-19.7.0/AndroidManifest.xml:57:13-37
+358            android:initOrder="100" />
+358-->[com.google.android.gms:play-services-ads-lite:19.7.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/065890470391eae504cee0ab1c2b235e/jetified-play-services-ads-lite-19.7.0/AndroidManifest.xml:58:13-36
+359
+360        <service
+360-->[com.google.android.gms:play-services-ads-lite:19.7.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/065890470391eae504cee0ab1c2b235e/jetified-play-services-ads-lite-19.7.0/AndroidManifest.xml:60:9-63:40
+361            android:name="com.google.android.gms.ads.AdService"
+361-->[com.google.android.gms:play-services-ads-lite:19.7.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/065890470391eae504cee0ab1c2b235e/jetified-play-services-ads-lite-19.7.0/AndroidManifest.xml:61:13-64
+362            android:enabled="true"
+362-->[com.google.android.gms:play-services-ads-lite:19.7.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/065890470391eae504cee0ab1c2b235e/jetified-play-services-ads-lite-19.7.0/AndroidManifest.xml:62:13-35
+363            android:exported="false" />
+363-->[com.google.android.gms:play-services-ads-lite:19.7.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/065890470391eae504cee0ab1c2b235e/jetified-play-services-ads-lite-19.7.0/AndroidManifest.xml:63:13-37
+364
+365        <activity
+365-->[com.google.firebase:firebase-auth:20.0.1] /home/al-haj/.gradle/caches/transforms-2/files-2.1/cbc2e7d93a66540d1d470c208041effd/jetified-firebase-auth-20.0.1/AndroidManifest.xml:27:9-44:20
+366            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+366-->[com.google.firebase:firebase-auth:20.0.1] /home/al-haj/.gradle/caches/transforms-2/files-2.1/cbc2e7d93a66540d1d470c208041effd/jetified-firebase-auth-20.0.1/AndroidManifest.xml:28:13-80
+367            android:excludeFromRecents="true"
+367-->[com.google.firebase:firebase-auth:20.0.1] /home/al-haj/.gradle/caches/transforms-2/files-2.1/cbc2e7d93a66540d1d470c208041effd/jetified-firebase-auth-20.0.1/AndroidManifest.xml:29:13-46
+368            android:exported="true"
+368-->[com.google.firebase:firebase-auth:20.0.1] /home/al-haj/.gradle/caches/transforms-2/files-2.1/cbc2e7d93a66540d1d470c208041effd/jetified-firebase-auth-20.0.1/AndroidManifest.xml:30:13-36
+369            android:launchMode="singleTask"
+369-->[com.google.firebase:firebase-auth:20.0.1] /home/al-haj/.gradle/caches/transforms-2/files-2.1/cbc2e7d93a66540d1d470c208041effd/jetified-firebase-auth-20.0.1/AndroidManifest.xml:31:13-44
+370            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+370-->[com.google.firebase:firebase-auth:20.0.1] /home/al-haj/.gradle/caches/transforms-2/files-2.1/cbc2e7d93a66540d1d470c208041effd/jetified-firebase-auth-20.0.1/AndroidManifest.xml:32:13-72
+371            <intent-filter>
+371-->[com.google.firebase:firebase-auth:20.0.1] /home/al-haj/.gradle/caches/transforms-2/files-2.1/cbc2e7d93a66540d1d470c208041effd/jetified-firebase-auth-20.0.1/AndroidManifest.xml:33:13-43:29
+372                <action android:name="android.intent.action.VIEW" />
+372-->/home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/android/app/src/main/AndroidManifest.xml:39:17-69
+372-->/home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/android/app/src/main/AndroidManifest.xml:39:25-66
+373
+374                <category android:name="android.intent.category.DEFAULT" />
+374-->/home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/android/app/src/main/AndroidManifest.xml:40:17-76
+374-->/home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/android/app/src/main/AndroidManifest.xml:40:27-73
+375                <category android:name="android.intent.category.BROWSABLE" />
+375-->/home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/android/app/src/main/AndroidManifest.xml:41:17-78
+375-->/home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/android/app/src/main/AndroidManifest.xml:41:27-75
+376
+377                <data
+377-->/home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/android/app/src/main/AndroidManifest.xml:42:17-45:23
+378                    android:host="firebase.auth"
+378-->/home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/android/app/src/main/AndroidManifest.xml:44:21-36
+379                    android:path="/"
+380                    android:scheme="genericidp" />
+380-->/home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/android/app/src/main/AndroidManifest.xml:43:21-41
+381            </intent-filter>
+382        </activity>
+383        <activity
+383-->[com.google.firebase:firebase-auth:20.0.1] /home/al-haj/.gradle/caches/transforms-2/files-2.1/cbc2e7d93a66540d1d470c208041effd/jetified-firebase-auth-20.0.1/AndroidManifest.xml:45:9-62:20
+384            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+384-->[com.google.firebase:firebase-auth:20.0.1] /home/al-haj/.gradle/caches/transforms-2/files-2.1/cbc2e7d93a66540d1d470c208041effd/jetified-firebase-auth-20.0.1/AndroidManifest.xml:46:13-79
+385            android:excludeFromRecents="true"
+385-->[com.google.firebase:firebase-auth:20.0.1] /home/al-haj/.gradle/caches/transforms-2/files-2.1/cbc2e7d93a66540d1d470c208041effd/jetified-firebase-auth-20.0.1/AndroidManifest.xml:47:13-46
+386            android:exported="true"
+386-->[com.google.firebase:firebase-auth:20.0.1] /home/al-haj/.gradle/caches/transforms-2/files-2.1/cbc2e7d93a66540d1d470c208041effd/jetified-firebase-auth-20.0.1/AndroidManifest.xml:48:13-36
+387            android:launchMode="singleTask"
+387-->[com.google.firebase:firebase-auth:20.0.1] /home/al-haj/.gradle/caches/transforms-2/files-2.1/cbc2e7d93a66540d1d470c208041effd/jetified-firebase-auth-20.0.1/AndroidManifest.xml:49:13-44
+388            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+388-->[com.google.firebase:firebase-auth:20.0.1] /home/al-haj/.gradle/caches/transforms-2/files-2.1/cbc2e7d93a66540d1d470c208041effd/jetified-firebase-auth-20.0.1/AndroidManifest.xml:50:13-72
+389            <intent-filter>
+389-->[com.google.firebase:firebase-auth:20.0.1] /home/al-haj/.gradle/caches/transforms-2/files-2.1/cbc2e7d93a66540d1d470c208041effd/jetified-firebase-auth-20.0.1/AndroidManifest.xml:51:13-61:29
+390                <action android:name="android.intent.action.VIEW" />
+390-->/home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/android/app/src/main/AndroidManifest.xml:39:17-69
+390-->/home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/android/app/src/main/AndroidManifest.xml:39:25-66
+391
+392                <category android:name="android.intent.category.DEFAULT" />
+392-->/home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/android/app/src/main/AndroidManifest.xml:40:17-76
+392-->/home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/android/app/src/main/AndroidManifest.xml:40:27-73
+393                <category android:name="android.intent.category.BROWSABLE" />
+393-->/home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/android/app/src/main/AndroidManifest.xml:41:17-78
+393-->/home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/android/app/src/main/AndroidManifest.xml:41:27-75
+394
+395                <data
+395-->/home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/android/app/src/main/AndroidManifest.xml:42:17-45:23
+396                    android:host="firebase.auth"
+396-->/home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/android/app/src/main/AndroidManifest.xml:44:21-36
+397                    android:path="/"
+398                    android:scheme="recaptcha" />
+398-->/home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/android/app/src/main/AndroidManifest.xml:43:21-41
+399            </intent-filter>
+400        </activity>
+401
+402        <service
+402-->[com.google.firebase:firebase-auth:20.0.1] /home/al-haj/.gradle/caches/transforms-2/files-2.1/cbc2e7d93a66540d1d470c208041effd/jetified-firebase-auth-20.0.1/AndroidManifest.xml:64:9-73:19
+403            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
+403-->[com.google.firebase:firebase-auth:20.0.1] /home/al-haj/.gradle/caches/transforms-2/files-2.1/cbc2e7d93a66540d1d470c208041effd/jetified-firebase-auth-20.0.1/AndroidManifest.xml:65:13-101
+404            android:enabled="true"
+404-->[com.google.firebase:firebase-auth:20.0.1] /home/al-haj/.gradle/caches/transforms-2/files-2.1/cbc2e7d93a66540d1d470c208041effd/jetified-firebase-auth-20.0.1/AndroidManifest.xml:66:13-35
+405            android:exported="false" >
+405-->[com.google.firebase:firebase-auth:20.0.1] /home/al-haj/.gradle/caches/transforms-2/files-2.1/cbc2e7d93a66540d1d470c208041effd/jetified-firebase-auth-20.0.1/AndroidManifest.xml:67:13-37
+406            <intent-filter>
+406-->[com.google.firebase:firebase-auth:20.0.1] /home/al-haj/.gradle/caches/transforms-2/files-2.1/cbc2e7d93a66540d1d470c208041effd/jetified-firebase-auth-20.0.1/AndroidManifest.xml:68:13-72:29
+407                <action android:name="com.google.firebase.auth.api.gms.service.START" />
+407-->[com.google.firebase:firebase-auth:20.0.1] /home/al-haj/.gradle/caches/transforms-2/files-2.1/cbc2e7d93a66540d1d470c208041effd/jetified-firebase-auth-20.0.1/AndroidManifest.xml:69:17-89
+407-->[com.google.firebase:firebase-auth:20.0.1] /home/al-haj/.gradle/caches/transforms-2/files-2.1/cbc2e7d93a66540d1d470c208041effd/jetified-firebase-auth-20.0.1/AndroidManifest.xml:69:25-86
+408
+409                <category android:name="android.intent.category.DEFAULT" />
+409-->/home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/android/app/src/main/AndroidManifest.xml:40:17-76
+409-->/home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/android/app/src/main/AndroidManifest.xml:40:27-73
+410            </intent-filter>
+411        </service>
+412        <!--
+413             FirebaseMessagingService performs security checks at runtime,
+414             but set to not exported to explicitly avoid allowing another app to call it.
+415        -->
+416        <service
+416-->[com.google.firebase:firebase-messaging:21.0.1] /home/al-haj/.gradle/caches/transforms-2/files-2.1/dfc3f479f21dab57fb9c449609085949/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:28:9-35:19
+417            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+417-->[com.google.firebase:firebase-messaging:21.0.1] /home/al-haj/.gradle/caches/transforms-2/files-2.1/dfc3f479f21dab57fb9c449609085949/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:29:13-82
+418            android:directBootAware="true"
+418-->[com.google.firebase:firebase-messaging:21.0.1] /home/al-haj/.gradle/caches/transforms-2/files-2.1/dfc3f479f21dab57fb9c449609085949/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:30:13-43
+419            android:exported="false" >
+419-->[com.google.firebase:firebase-messaging:21.0.1] /home/al-haj/.gradle/caches/transforms-2/files-2.1/dfc3f479f21dab57fb9c449609085949/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:31:13-37
+420            <intent-filter android:priority="-500" >
+420-->[com.google.firebase:firebase-messaging:21.0.1] /home/al-haj/.gradle/caches/transforms-2/files-2.1/dfc3f479f21dab57fb9c449609085949/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:32:13-34:29
+420-->[com.google.firebase:firebase-messaging:21.0.1] /home/al-haj/.gradle/caches/transforms-2/files-2.1/dfc3f479f21dab57fb9c449609085949/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:32:28-51
+421                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+421-->[com.google.firebase:firebase-messaging:21.0.1] /home/al-haj/.gradle/caches/transforms-2/files-2.1/dfc3f479f21dab57fb9c449609085949/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:33:17-78
+421-->[com.google.firebase:firebase-messaging:21.0.1] /home/al-haj/.gradle/caches/transforms-2/files-2.1/dfc3f479f21dab57fb9c449609085949/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:33:25-75
+422            </intent-filter>
+423        </service>
+424
+425        <receiver
+425-->[com.google.firebase:firebase-iid:21.0.1] /home/al-haj/.gradle/caches/transforms-2/files-2.1/f4b0ba5c9d5248e4003d1ce8e22fcfd6/jetified-firebase-iid-21.0.1/AndroidManifest.xml:37:9-44:20
+426            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+426-->[com.google.firebase:firebase-iid:21.0.1] /home/al-haj/.gradle/caches/transforms-2/files-2.1/f4b0ba5c9d5248e4003d1ce8e22fcfd6/jetified-firebase-iid-21.0.1/AndroidManifest.xml:38:13-78
+427            android:exported="true"
+427-->[com.google.firebase:firebase-iid:21.0.1] /home/al-haj/.gradle/caches/transforms-2/files-2.1/f4b0ba5c9d5248e4003d1ce8e22fcfd6/jetified-firebase-iid-21.0.1/AndroidManifest.xml:39:13-36
+428            android:permission="com.google.android.c2dm.permission.SEND" >
+428-->[com.google.firebase:firebase-iid:21.0.1] /home/al-haj/.gradle/caches/transforms-2/files-2.1/f4b0ba5c9d5248e4003d1ce8e22fcfd6/jetified-firebase-iid-21.0.1/AndroidManifest.xml:40:13-73
+429            <intent-filter>
+429-->[com.google.firebase:firebase-iid:21.0.1] /home/al-haj/.gradle/caches/transforms-2/files-2.1/f4b0ba5c9d5248e4003d1ce8e22fcfd6/jetified-firebase-iid-21.0.1/AndroidManifest.xml:41:13-43:29
+430                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+430-->[com.onesignal:OneSignal:3.16.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/363092dc786ea0c188be89eec2cac329/jetified-OneSignal-3.16.0/AndroidManifest.xml:63:17-81
+430-->[com.onesignal:OneSignal:3.16.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/363092dc786ea0c188be89eec2cac329/jetified-OneSignal-3.16.0/AndroidManifest.xml:63:25-78
+431            </intent-filter>
+432        </receiver>
+433
+434        <provider
+434-->[com.google.firebase:firebase-common:19.5.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/77e8a1ab6bd3d69c13c8c02f839f11d6/jetified-firebase-common-19.5.0/AndroidManifest.xml:26:9-31:39
+435            android:name="com.google.firebase.provider.FirebaseInitProvider"
+435-->[com.google.firebase:firebase-common:19.5.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/77e8a1ab6bd3d69c13c8c02f839f11d6/jetified-firebase-common-19.5.0/AndroidManifest.xml:27:13-77
+436            android:authorities="com.wiwmedia.wiwsport.firebaseinitprovider"
+436-->[com.google.firebase:firebase-common:19.5.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/77e8a1ab6bd3d69c13c8c02f839f11d6/jetified-firebase-common-19.5.0/AndroidManifest.xml:28:13-72
+437            android:directBootAware="true"
+437-->[com.google.firebase:firebase-common:19.5.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/77e8a1ab6bd3d69c13c8c02f839f11d6/jetified-firebase-common-19.5.0/AndroidManifest.xml:29:13-43
+438            android:exported="false"
+438-->[com.google.firebase:firebase-common:19.5.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/77e8a1ab6bd3d69c13c8c02f839f11d6/jetified-firebase-common-19.5.0/AndroidManifest.xml:30:13-37
+439            android:initOrder="100" />
+439-->[com.google.firebase:firebase-common:19.5.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/77e8a1ab6bd3d69c13c8c02f839f11d6/jetified-firebase-common-19.5.0/AndroidManifest.xml:31:13-36
+440
+441        <activity
+441-->[com.google.android.gms:play-services-base:17.1.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/36c0e8435390645eeca1f9769c877ed8/jetified-play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+442            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+442-->[com.google.android.gms:play-services-base:17.1.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/36c0e8435390645eeca1f9769c877ed8/jetified-play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+443            android:exported="false"
+443-->[com.google.android.gms:play-services-base:17.1.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/36c0e8435390645eeca1f9769c877ed8/jetified-play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+444            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+444-->[com.google.android.gms:play-services-base:17.1.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/36c0e8435390645eeca1f9769c877ed8/jetified-play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+445
+446        <meta-data
+446-->[com.google.android.gms:play-services-basement:17.5.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/03f93214e922e26bbd78cad90791765a/jetified-play-services-basement-17.5.0/AndroidManifest.xml:23:9-25:69
+447            android:name="com.google.android.gms.version"
+447-->[com.google.android.gms:play-services-basement:17.5.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/03f93214e922e26bbd78cad90791765a/jetified-play-services-basement-17.5.0/AndroidManifest.xml:24:13-58
+448            android:value="@integer/google_play_services_version" />
+448-->[com.google.android.gms:play-services-basement:17.5.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/03f93214e922e26bbd78cad90791765a/jetified-play-services-basement-17.5.0/AndroidManifest.xml:25:13-66
+449
+450        <activity
+450-->[:flutter_inappwebview] /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/flutter_inappwebview/intermediates/library_manifest/release/AndroidManifest.xml:8:9-11:47
+451            android:name="com.pichillilorenzo.flutter_inappwebview.InAppBrowser.InAppBrowserActivity"
+451-->[:flutter_inappwebview] /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/flutter_inappwebview/intermediates/library_manifest/release/AndroidManifest.xml:9:13-102
+452            android:configChanges="orientation|screenSize"
+452-->[:flutter_inappwebview] /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/flutter_inappwebview/intermediates/library_manifest/release/AndroidManifest.xml:10:13-59
+453            android:theme="@style/AppTheme" />
+453-->[:flutter_inappwebview] /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/flutter_inappwebview/intermediates/library_manifest/release/AndroidManifest.xml:11:13-44
+454        <activity
+454-->[:flutter_inappwebview] /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/flutter_inappwebview/intermediates/library_manifest/release/AndroidManifest.xml:12:9-15:55
+455            android:name="com.pichillilorenzo.flutter_inappwebview.ChromeCustomTabs.ChromeCustomTabsActivity"
+455-->[:flutter_inappwebview] /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/flutter_inappwebview/intermediates/library_manifest/release/AndroidManifest.xml:13:13-110
+456            android:configChanges="orientation|screenSize"
+456-->[:flutter_inappwebview] /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/flutter_inappwebview/intermediates/library_manifest/release/AndroidManifest.xml:14:13-59
+457            android:theme="@style/ThemeTransparent" />
+457-->[:flutter_inappwebview] /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/flutter_inappwebview/intermediates/library_manifest/release/AndroidManifest.xml:15:13-52
+458
+459        <receiver android:name="com.pichillilorenzo.flutter_inappwebview.ChromeCustomTabs.ActionBroadcastReceiver" />
+459-->[:flutter_inappwebview] /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/flutter_inappwebview/intermediates/library_manifest/release/AndroidManifest.xml:17:9-118
+459-->[:flutter_inappwebview] /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/flutter_inappwebview/intermediates/library_manifest/release/AndroidManifest.xml:17:19-115
+460
+461        <provider
+461-->[:share] /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/share/intermediates/library_manifest/release/AndroidManifest.xml:8:9-16:20
+462            android:name="io.flutter.plugins.share.ShareFileProvider"
+462-->[:share] /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/share/intermediates/library_manifest/release/AndroidManifest.xml:9:13-70
+463            android:authorities="com.wiwmedia.wiwsport.flutter.share_provider"
+463-->[:share] /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/share/intermediates/library_manifest/release/AndroidManifest.xml:10:13-74
+464            android:exported="false"
+464-->[:share] /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/share/intermediates/library_manifest/release/AndroidManifest.xml:11:13-37
+465            android:grantUriPermissions="true" >
+465-->[:share] /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/share/intermediates/library_manifest/release/AndroidManifest.xml:12:13-47
+466            <meta-data
+466-->[:share] /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/share/intermediates/library_manifest/release/AndroidManifest.xml:13:13-15:68
+467                android:name="android.support.FILE_PROVIDER_PATHS"
+467-->[:share] /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/share/intermediates/library_manifest/release/AndroidManifest.xml:14:17-67
+468                android:resource="@xml/flutter_share_file_paths" />
+468-->[:share] /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/share/intermediates/library_manifest/release/AndroidManifest.xml:15:17-65
+469        </provider>
+470
+471        <activity
+471-->[:url_launcher] /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/url_launcher/intermediates/library_manifest/release/AndroidManifest.xml:8:9-11:74
+472            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+472-->[:url_launcher] /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/url_launcher/intermediates/library_manifest/release/AndroidManifest.xml:9:13-74
+473            android:exported="false"
+473-->[:url_launcher] /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/url_launcher/intermediates/library_manifest/release/AndroidManifest.xml:10:13-37
+474            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+474-->[:url_launcher] /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/url_launcher/intermediates/library_manifest/release/AndroidManifest.xml:11:13-71
+475        <activity android:name="com.facebook.CustomTabMainActivity" />
+475-->[com.facebook.android:facebook-common:5.5.1] /home/al-haj/.gradle/caches/transforms-2/files-2.1/45d4636cce8ac0022668099566f7dc94/jetified-facebook-common-5.5.1/AndroidManifest.xml:33:9-71
+475-->[com.facebook.android:facebook-common:5.5.1] /home/al-haj/.gradle/caches/transforms-2/files-2.1/45d4636cce8ac0022668099566f7dc94/jetified-facebook-common-5.5.1/AndroidManifest.xml:33:19-68
+476        <!--
+477         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+478         with the application context. This config is merged in with the host app's manifest,
+479         but there can only be one provider with the same authority activated at any given
+480         point; so if the end user has two or more different apps that use Facebook SDK, only the
+481         first one will be able to use the provider. To work around this problem, we use the
+482         following placeholder in the authority to identify each host application as if it was
+483         a completely different provider.
+484        -->
+485        <provider
+485-->[com.facebook.android:facebook-core:5.5.1] /home/al-haj/.gradle/caches/transforms-2/files-2.1/7d698e7bb7db6e93adeef562c5a09503/jetified-facebook-core-5.5.1/AndroidManifest.xml:39:9-42:40
+486            android:name="com.facebook.internal.FacebookInitProvider"
+486-->[com.facebook.android:facebook-core:5.5.1] /home/al-haj/.gradle/caches/transforms-2/files-2.1/7d698e7bb7db6e93adeef562c5a09503/jetified-facebook-core-5.5.1/AndroidManifest.xml:40:13-70
+487            android:authorities="com.wiwmedia.wiwsport.FacebookInitProvider"
+487-->[com.facebook.android:facebook-core:5.5.1] /home/al-haj/.gradle/caches/transforms-2/files-2.1/7d698e7bb7db6e93adeef562c5a09503/jetified-facebook-core-5.5.1/AndroidManifest.xml:41:13-72
+488            android:exported="false" />
+488-->[com.facebook.android:facebook-core:5.5.1] /home/al-haj/.gradle/caches/transforms-2/files-2.1/7d698e7bb7db6e93adeef562c5a09503/jetified-facebook-core-5.5.1/AndroidManifest.xml:42:13-37
+489
+490        <receiver
+490-->[com.facebook.android:facebook-core:5.5.1] /home/al-haj/.gradle/caches/transforms-2/files-2.1/7d698e7bb7db6e93adeef562c5a09503/jetified-facebook-core-5.5.1/AndroidManifest.xml:44:9-50:20
+491            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+491-->[com.facebook.android:facebook-core:5.5.1] /home/al-haj/.gradle/caches/transforms-2/files-2.1/7d698e7bb7db6e93adeef562c5a09503/jetified-facebook-core-5.5.1/AndroidManifest.xml:45:13-86
+492            android:exported="false" >
+492-->[com.facebook.android:facebook-core:5.5.1] /home/al-haj/.gradle/caches/transforms-2/files-2.1/7d698e7bb7db6e93adeef562c5a09503/jetified-facebook-core-5.5.1/AndroidManifest.xml:46:13-37
+493            <intent-filter>
+493-->[com.facebook.android:facebook-core:5.5.1] /home/al-haj/.gradle/caches/transforms-2/files-2.1/7d698e7bb7db6e93adeef562c5a09503/jetified-facebook-core-5.5.1/AndroidManifest.xml:47:13-49:29
+494                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+494-->[com.facebook.android:facebook-core:5.5.1] /home/al-haj/.gradle/caches/transforms-2/files-2.1/7d698e7bb7db6e93adeef562c5a09503/jetified-facebook-core-5.5.1/AndroidManifest.xml:48:17-95
+494-->[com.facebook.android:facebook-core:5.5.1] /home/al-haj/.gradle/caches/transforms-2/files-2.1/7d698e7bb7db6e93adeef562c5a09503/jetified-facebook-core-5.5.1/AndroidManifest.xml:48:25-92
+495            </intent-filter>
+496        </receiver>
+497        <receiver
+497-->[com.facebook.android:facebook-core:5.5.1] /home/al-haj/.gradle/caches/transforms-2/files-2.1/7d698e7bb7db6e93adeef562c5a09503/jetified-facebook-core-5.5.1/AndroidManifest.xml:51:9-58:20
+498            android:name="com.facebook.CampaignTrackingReceiver"
+498-->[com.facebook.android:facebook-core:5.5.1] /home/al-haj/.gradle/caches/transforms-2/files-2.1/7d698e7bb7db6e93adeef562c5a09503/jetified-facebook-core-5.5.1/AndroidManifest.xml:52:13-65
+499            android:exported="true"
+499-->[com.facebook.android:facebook-core:5.5.1] /home/al-haj/.gradle/caches/transforms-2/files-2.1/7d698e7bb7db6e93adeef562c5a09503/jetified-facebook-core-5.5.1/AndroidManifest.xml:53:13-36
+500            android:permission="android.permission.INSTALL_PACKAGES" >
+500-->[com.facebook.android:facebook-core:5.5.1] /home/al-haj/.gradle/caches/transforms-2/files-2.1/7d698e7bb7db6e93adeef562c5a09503/jetified-facebook-core-5.5.1/AndroidManifest.xml:54:13-69
+501            <intent-filter>
+501-->[com.facebook.android:facebook-core:5.5.1] /home/al-haj/.gradle/caches/transforms-2/files-2.1/7d698e7bb7db6e93adeef562c5a09503/jetified-facebook-core-5.5.1/AndroidManifest.xml:55:13-57:29
+502                <action android:name="com.android.vending.INSTALL_REFERRER" />
+502-->[com.facebook.android:facebook-core:5.5.1] /home/al-haj/.gradle/caches/transforms-2/files-2.1/7d698e7bb7db6e93adeef562c5a09503/jetified-facebook-core-5.5.1/AndroidManifest.xml:56:17-79
+502-->[com.facebook.android:facebook-core:5.5.1] /home/al-haj/.gradle/caches/transforms-2/files-2.1/7d698e7bb7db6e93adeef562c5a09503/jetified-facebook-core-5.5.1/AndroidManifest.xml:56:25-76
+503            </intent-filter>
+504        </receiver>
+505
+506        <provider
+506-->[androidx.work:work-runtime:2.1.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/d9a616c411ebe90602cbc2264ac873b6/work-runtime-2.1.0/AndroidManifest.xml:30:9-36:35
+507            android:name="androidx.work.impl.WorkManagerInitializer"
+507-->[androidx.work:work-runtime:2.1.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/d9a616c411ebe90602cbc2264ac873b6/work-runtime-2.1.0/AndroidManifest.xml:31:13-69
+508            android:authorities="com.wiwmedia.wiwsport.workmanager-init"
+508-->[androidx.work:work-runtime:2.1.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/d9a616c411ebe90602cbc2264ac873b6/work-runtime-2.1.0/AndroidManifest.xml:32:13-68
+509            android:directBootAware="false"
+509-->[androidx.work:work-runtime:2.1.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/d9a616c411ebe90602cbc2264ac873b6/work-runtime-2.1.0/AndroidManifest.xml:33:13-44
+510            android:exported="false"
+510-->[androidx.work:work-runtime:2.1.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/d9a616c411ebe90602cbc2264ac873b6/work-runtime-2.1.0/AndroidManifest.xml:34:13-37
+511            android:multiprocess="true" />
+511-->[androidx.work:work-runtime:2.1.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/d9a616c411ebe90602cbc2264ac873b6/work-runtime-2.1.0/AndroidManifest.xml:35:13-40
+512
+513        <service
+513-->[androidx.work:work-runtime:2.1.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/d9a616c411ebe90602cbc2264ac873b6/work-runtime-2.1.0/AndroidManifest.xml:38:9-43:35
+514            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+514-->[androidx.work:work-runtime:2.1.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/d9a616c411ebe90602cbc2264ac873b6/work-runtime-2.1.0/AndroidManifest.xml:39:13-88
+515            android:directBootAware="false"
+515-->[androidx.work:work-runtime:2.1.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/d9a616c411ebe90602cbc2264ac873b6/work-runtime-2.1.0/AndroidManifest.xml:40:13-44
+516            android:enabled="@bool/enable_system_alarm_service_default"
+516-->[androidx.work:work-runtime:2.1.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/d9a616c411ebe90602cbc2264ac873b6/work-runtime-2.1.0/AndroidManifest.xml:41:13-72
+517            android:exported="false" />
+517-->[androidx.work:work-runtime:2.1.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/d9a616c411ebe90602cbc2264ac873b6/work-runtime-2.1.0/AndroidManifest.xml:42:13-37
+518        <service
+518-->[androidx.work:work-runtime:2.1.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/d9a616c411ebe90602cbc2264ac873b6/work-runtime-2.1.0/AndroidManifest.xml:44:9-50:35
+519            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+519-->[androidx.work:work-runtime:2.1.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/d9a616c411ebe90602cbc2264ac873b6/work-runtime-2.1.0/AndroidManifest.xml:45:13-84
+520            android:directBootAware="false"
+520-->[androidx.work:work-runtime:2.1.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/d9a616c411ebe90602cbc2264ac873b6/work-runtime-2.1.0/AndroidManifest.xml:46:13-44
+521            android:enabled="@bool/enable_system_job_service_default"
+521-->[androidx.work:work-runtime:2.1.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/d9a616c411ebe90602cbc2264ac873b6/work-runtime-2.1.0/AndroidManifest.xml:47:13-70
+522            android:exported="true"
+522-->[androidx.work:work-runtime:2.1.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/d9a616c411ebe90602cbc2264ac873b6/work-runtime-2.1.0/AndroidManifest.xml:48:13-36
+523            android:permission="android.permission.BIND_JOB_SERVICE" />
+523-->[androidx.work:work-runtime:2.1.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/d9a616c411ebe90602cbc2264ac873b6/work-runtime-2.1.0/AndroidManifest.xml:49:13-69
+524
+525        <receiver
+525-->[androidx.work:work-runtime:2.1.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/d9a616c411ebe90602cbc2264ac873b6/work-runtime-2.1.0/AndroidManifest.xml:52:9-57:35
+526            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+526-->[androidx.work:work-runtime:2.1.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/d9a616c411ebe90602cbc2264ac873b6/work-runtime-2.1.0/AndroidManifest.xml:53:13-88
+527            android:directBootAware="false"
+527-->[androidx.work:work-runtime:2.1.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/d9a616c411ebe90602cbc2264ac873b6/work-runtime-2.1.0/AndroidManifest.xml:54:13-44
+528            android:enabled="true"
+528-->[androidx.work:work-runtime:2.1.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/d9a616c411ebe90602cbc2264ac873b6/work-runtime-2.1.0/AndroidManifest.xml:55:13-35
+529            android:exported="false" />
+529-->[androidx.work:work-runtime:2.1.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/d9a616c411ebe90602cbc2264ac873b6/work-runtime-2.1.0/AndroidManifest.xml:56:13-37
+530        <receiver
+530-->[androidx.work:work-runtime:2.1.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/d9a616c411ebe90602cbc2264ac873b6/work-runtime-2.1.0/AndroidManifest.xml:58:9-68:20
+531            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+531-->[androidx.work:work-runtime:2.1.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/d9a616c411ebe90602cbc2264ac873b6/work-runtime-2.1.0/AndroidManifest.xml:59:13-106
+532            android:directBootAware="false"
+532-->[androidx.work:work-runtime:2.1.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/d9a616c411ebe90602cbc2264ac873b6/work-runtime-2.1.0/AndroidManifest.xml:60:13-44
+533            android:enabled="false"
+533-->[androidx.work:work-runtime:2.1.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/d9a616c411ebe90602cbc2264ac873b6/work-runtime-2.1.0/AndroidManifest.xml:61:13-36
+534            android:exported="false" >
+534-->[androidx.work:work-runtime:2.1.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/d9a616c411ebe90602cbc2264ac873b6/work-runtime-2.1.0/AndroidManifest.xml:62:13-37
+535            <intent-filter>
+535-->[androidx.work:work-runtime:2.1.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/d9a616c411ebe90602cbc2264ac873b6/work-runtime-2.1.0/AndroidManifest.xml:64:13-67:29
+536                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+536-->[androidx.work:work-runtime:2.1.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/d9a616c411ebe90602cbc2264ac873b6/work-runtime-2.1.0/AndroidManifest.xml:65:17-87
+536-->[androidx.work:work-runtime:2.1.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/d9a616c411ebe90602cbc2264ac873b6/work-runtime-2.1.0/AndroidManifest.xml:65:25-84
+537                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+537-->[androidx.work:work-runtime:2.1.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/d9a616c411ebe90602cbc2264ac873b6/work-runtime-2.1.0/AndroidManifest.xml:66:17-90
+537-->[androidx.work:work-runtime:2.1.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/d9a616c411ebe90602cbc2264ac873b6/work-runtime-2.1.0/AndroidManifest.xml:66:25-87
+538            </intent-filter>
+539        </receiver>
+540        <receiver
+540-->[androidx.work:work-runtime:2.1.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/d9a616c411ebe90602cbc2264ac873b6/work-runtime-2.1.0/AndroidManifest.xml:69:9-79:20
+541            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+541-->[androidx.work:work-runtime:2.1.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/d9a616c411ebe90602cbc2264ac873b6/work-runtime-2.1.0/AndroidManifest.xml:70:13-104
+542            android:directBootAware="false"
+542-->[androidx.work:work-runtime:2.1.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/d9a616c411ebe90602cbc2264ac873b6/work-runtime-2.1.0/AndroidManifest.xml:71:13-44
+543            android:enabled="false"
+543-->[androidx.work:work-runtime:2.1.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/d9a616c411ebe90602cbc2264ac873b6/work-runtime-2.1.0/AndroidManifest.xml:72:13-36
+544            android:exported="false" >
+544-->[androidx.work:work-runtime:2.1.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/d9a616c411ebe90602cbc2264ac873b6/work-runtime-2.1.0/AndroidManifest.xml:73:13-37
+545            <intent-filter>
+545-->[androidx.work:work-runtime:2.1.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/d9a616c411ebe90602cbc2264ac873b6/work-runtime-2.1.0/AndroidManifest.xml:75:13-78:29
+546                <action android:name="android.intent.action.BATTERY_OKAY" />
+546-->[androidx.work:work-runtime:2.1.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/d9a616c411ebe90602cbc2264ac873b6/work-runtime-2.1.0/AndroidManifest.xml:76:17-77
+546-->[androidx.work:work-runtime:2.1.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/d9a616c411ebe90602cbc2264ac873b6/work-runtime-2.1.0/AndroidManifest.xml:76:25-74
+547                <action android:name="android.intent.action.BATTERY_LOW" />
+547-->[androidx.work:work-runtime:2.1.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/d9a616c411ebe90602cbc2264ac873b6/work-runtime-2.1.0/AndroidManifest.xml:77:17-76
+547-->[androidx.work:work-runtime:2.1.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/d9a616c411ebe90602cbc2264ac873b6/work-runtime-2.1.0/AndroidManifest.xml:77:25-73
+548            </intent-filter>
+549        </receiver>
+550        <receiver
+550-->[androidx.work:work-runtime:2.1.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/d9a616c411ebe90602cbc2264ac873b6/work-runtime-2.1.0/AndroidManifest.xml:80:9-90:20
+551            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+551-->[androidx.work:work-runtime:2.1.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/d9a616c411ebe90602cbc2264ac873b6/work-runtime-2.1.0/AndroidManifest.xml:81:13-104
+552            android:directBootAware="false"
+552-->[androidx.work:work-runtime:2.1.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/d9a616c411ebe90602cbc2264ac873b6/work-runtime-2.1.0/AndroidManifest.xml:82:13-44
+553            android:enabled="false"
+553-->[androidx.work:work-runtime:2.1.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/d9a616c411ebe90602cbc2264ac873b6/work-runtime-2.1.0/AndroidManifest.xml:83:13-36
+554            android:exported="false" >
+554-->[androidx.work:work-runtime:2.1.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/d9a616c411ebe90602cbc2264ac873b6/work-runtime-2.1.0/AndroidManifest.xml:84:13-37
+555            <intent-filter>
+555-->[androidx.work:work-runtime:2.1.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/d9a616c411ebe90602cbc2264ac873b6/work-runtime-2.1.0/AndroidManifest.xml:86:13-89:29
+556                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+556-->[androidx.work:work-runtime:2.1.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/d9a616c411ebe90602cbc2264ac873b6/work-runtime-2.1.0/AndroidManifest.xml:87:17-83
+556-->[androidx.work:work-runtime:2.1.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/d9a616c411ebe90602cbc2264ac873b6/work-runtime-2.1.0/AndroidManifest.xml:87:25-80
+557                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+557-->[androidx.work:work-runtime:2.1.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/d9a616c411ebe90602cbc2264ac873b6/work-runtime-2.1.0/AndroidManifest.xml:88:17-82
+557-->[androidx.work:work-runtime:2.1.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/d9a616c411ebe90602cbc2264ac873b6/work-runtime-2.1.0/AndroidManifest.xml:88:25-79
+558            </intent-filter>
+559        </receiver>
+560        <receiver
+560-->[androidx.work:work-runtime:2.1.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/d9a616c411ebe90602cbc2264ac873b6/work-runtime-2.1.0/AndroidManifest.xml:91:9-100:20
+561            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+561-->[androidx.work:work-runtime:2.1.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/d9a616c411ebe90602cbc2264ac873b6/work-runtime-2.1.0/AndroidManifest.xml:92:13-103
+562            android:directBootAware="false"
+562-->[androidx.work:work-runtime:2.1.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/d9a616c411ebe90602cbc2264ac873b6/work-runtime-2.1.0/AndroidManifest.xml:93:13-44
+563            android:enabled="false"
+563-->[androidx.work:work-runtime:2.1.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/d9a616c411ebe90602cbc2264ac873b6/work-runtime-2.1.0/AndroidManifest.xml:94:13-36
+564            android:exported="false" >
+564-->[androidx.work:work-runtime:2.1.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/d9a616c411ebe90602cbc2264ac873b6/work-runtime-2.1.0/AndroidManifest.xml:95:13-37
+565            <intent-filter>
+565-->[androidx.work:work-runtime:2.1.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/d9a616c411ebe90602cbc2264ac873b6/work-runtime-2.1.0/AndroidManifest.xml:97:13-99:29
+566                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+566-->[androidx.work:work-runtime:2.1.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/d9a616c411ebe90602cbc2264ac873b6/work-runtime-2.1.0/AndroidManifest.xml:98:17-79
+566-->[androidx.work:work-runtime:2.1.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/d9a616c411ebe90602cbc2264ac873b6/work-runtime-2.1.0/AndroidManifest.xml:98:25-76
+567            </intent-filter>
+568        </receiver>
+569        <receiver
+569-->[androidx.work:work-runtime:2.1.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/d9a616c411ebe90602cbc2264ac873b6/work-runtime-2.1.0/AndroidManifest.xml:101:9-112:20
+570            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+570-->[androidx.work:work-runtime:2.1.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/d9a616c411ebe90602cbc2264ac873b6/work-runtime-2.1.0/AndroidManifest.xml:102:13-88
+571            android:directBootAware="false"
+571-->[androidx.work:work-runtime:2.1.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/d9a616c411ebe90602cbc2264ac873b6/work-runtime-2.1.0/AndroidManifest.xml:103:13-44
+572            android:enabled="false"
+572-->[androidx.work:work-runtime:2.1.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/d9a616c411ebe90602cbc2264ac873b6/work-runtime-2.1.0/AndroidManifest.xml:104:13-36
+573            android:exported="false" >
+573-->[androidx.work:work-runtime:2.1.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/d9a616c411ebe90602cbc2264ac873b6/work-runtime-2.1.0/AndroidManifest.xml:105:13-37
+574            <intent-filter>
+574-->[androidx.work:work-runtime:2.1.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/d9a616c411ebe90602cbc2264ac873b6/work-runtime-2.1.0/AndroidManifest.xml:107:13-111:29
+575                <action android:name="android.intent.action.BOOT_COMPLETED" />
+575-->[com.onesignal:OneSignal:3.16.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/363092dc786ea0c188be89eec2cac329/jetified-OneSignal-3.16.0/AndroidManifest.xml:111:17-79
+575-->[com.onesignal:OneSignal:3.16.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/363092dc786ea0c188be89eec2cac329/jetified-OneSignal-3.16.0/AndroidManifest.xml:111:25-76
+576                <action android:name="android.intent.action.TIME_SET" />
+576-->[androidx.work:work-runtime:2.1.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/d9a616c411ebe90602cbc2264ac873b6/work-runtime-2.1.0/AndroidManifest.xml:109:17-73
+576-->[androidx.work:work-runtime:2.1.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/d9a616c411ebe90602cbc2264ac873b6/work-runtime-2.1.0/AndroidManifest.xml:109:25-70
+577                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+577-->[androidx.work:work-runtime:2.1.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/d9a616c411ebe90602cbc2264ac873b6/work-runtime-2.1.0/AndroidManifest.xml:110:17-81
+577-->[androidx.work:work-runtime:2.1.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/d9a616c411ebe90602cbc2264ac873b6/work-runtime-2.1.0/AndroidManifest.xml:110:25-78
+578            </intent-filter>
+579        </receiver>
+580        <receiver
+580-->[androidx.work:work-runtime:2.1.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/d9a616c411ebe90602cbc2264ac873b6/work-runtime-2.1.0/AndroidManifest.xml:113:9-122:20
+581            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+581-->[androidx.work:work-runtime:2.1.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/d9a616c411ebe90602cbc2264ac873b6/work-runtime-2.1.0/AndroidManifest.xml:114:13-99
+582            android:directBootAware="false"
+582-->[androidx.work:work-runtime:2.1.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/d9a616c411ebe90602cbc2264ac873b6/work-runtime-2.1.0/AndroidManifest.xml:115:13-44
+583            android:enabled="@bool/enable_system_alarm_service_default"
+583-->[androidx.work:work-runtime:2.1.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/d9a616c411ebe90602cbc2264ac873b6/work-runtime-2.1.0/AndroidManifest.xml:116:13-72
+584            android:exported="false" >
+584-->[androidx.work:work-runtime:2.1.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/d9a616c411ebe90602cbc2264ac873b6/work-runtime-2.1.0/AndroidManifest.xml:117:13-37
+585            <intent-filter>
+585-->[androidx.work:work-runtime:2.1.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/d9a616c411ebe90602cbc2264ac873b6/work-runtime-2.1.0/AndroidManifest.xml:119:13-121:29
+586                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+586-->[androidx.work:work-runtime:2.1.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/d9a616c411ebe90602cbc2264ac873b6/work-runtime-2.1.0/AndroidManifest.xml:120:17-98
+586-->[androidx.work:work-runtime:2.1.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/d9a616c411ebe90602cbc2264ac873b6/work-runtime-2.1.0/AndroidManifest.xml:120:25-95
+587            </intent-filter>
+588        </receiver>
+589
+590        <service
+590-->[androidx.room:room-runtime:2.1.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/87c835728217666f0bbc43a77ae78a5a/room-runtime-2.1.0/AndroidManifest.xml:25:9-27:40
+591            android:name="androidx.room.MultiInstanceInvalidationService"
+591-->[androidx.room:room-runtime:2.1.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/87c835728217666f0bbc43a77ae78a5a/room-runtime-2.1.0/AndroidManifest.xml:26:13-74
+592            android:exported="false" />
+592-->[androidx.room:room-runtime:2.1.0] /home/al-haj/.gradle/caches/transforms-2/files-2.1/87c835728217666f0bbc43a77ae78a5a/room-runtime-2.1.0/AndroidManifest.xml:27:13-37
+593        <service
+593-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /home/al-haj/.gradle/caches/transforms-2/files-2.1/67e7b4bfbc49ca837993e2e3a843fc82/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:29:9-35:19
+594            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+594-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /home/al-haj/.gradle/caches/transforms-2/files-2.1/67e7b4bfbc49ca837993e2e3a843fc82/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:30:13-103
+595            android:exported="false" >
+595-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /home/al-haj/.gradle/caches/transforms-2/files-2.1/67e7b4bfbc49ca837993e2e3a843fc82/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:31:13-37
+596            <meta-data
+596-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /home/al-haj/.gradle/caches/transforms-2/files-2.1/67e7b4bfbc49ca837993e2e3a843fc82/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:32:13-34:39
+597                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+597-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /home/al-haj/.gradle/caches/transforms-2/files-2.1/67e7b4bfbc49ca837993e2e3a843fc82/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:33:17-94
+598                android:value="cct" />
+598-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /home/al-haj/.gradle/caches/transforms-2/files-2.1/67e7b4bfbc49ca837993e2e3a843fc82/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:34:17-36
+599        </service>
+600        <service
+600-->[com.google.android.datatransport:transport-runtime:2.2.5] /home/al-haj/.gradle/caches/transforms-2/files-2.1/0e0f203b17de3219321c0a07ed5ef278/jetified-transport-runtime-2.2.5/AndroidManifest.xml:26:9-30:19
+601            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+601-->[com.google.android.datatransport:transport-runtime:2.2.5] /home/al-haj/.gradle/caches/transforms-2/files-2.1/0e0f203b17de3219321c0a07ed5ef278/jetified-transport-runtime-2.2.5/AndroidManifest.xml:27:13-117
+602            android:exported="false"
+602-->[com.google.android.datatransport:transport-runtime:2.2.5] /home/al-haj/.gradle/caches/transforms-2/files-2.1/0e0f203b17de3219321c0a07ed5ef278/jetified-transport-runtime-2.2.5/AndroidManifest.xml:28:13-37
+603            android:permission="android.permission.BIND_JOB_SERVICE" >
+603-->[com.google.android.datatransport:transport-runtime:2.2.5] /home/al-haj/.gradle/caches/transforms-2/files-2.1/0e0f203b17de3219321c0a07ed5ef278/jetified-transport-runtime-2.2.5/AndroidManifest.xml:29:13-69
+604        </service>
+605
+606        <receiver
+606-->[com.google.android.datatransport:transport-runtime:2.2.5] /home/al-haj/.gradle/caches/transforms-2/files-2.1/0e0f203b17de3219321c0a07ed5ef278/jetified-transport-runtime-2.2.5/AndroidManifest.xml:32:9-34:40
+607            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+607-->[com.google.android.datatransport:transport-runtime:2.2.5] /home/al-haj/.gradle/caches/transforms-2/files-2.1/0e0f203b17de3219321c0a07ed5ef278/jetified-transport-runtime-2.2.5/AndroidManifest.xml:33:13-132
+608            android:exported="false" />
+608-->[com.google.android.datatransport:transport-runtime:2.2.5] /home/al-haj/.gradle/caches/transforms-2/files-2.1/0e0f203b17de3219321c0a07ed5ef278/jetified-transport-runtime-2.2.5/AndroidManifest.xml:34:13-37
+609        <!--
+610             The Mixpanel library will automatically attempt to show available in
+611             app notifications every time a new Activity is displayed. To disable this behavior,
+612             add the following line. The default value for this option is set to true.
+613        -->
+614        <!--
+615        <meta-data android:name="com.mixpanel.android.MPConfig.AutoShowMixpanelUpdates"
+616            android:value="false" />
+617        -->
+618        <!--
+619             Set this option to true if you wish for in-app notifications to be displayed without
+620             being tracked by Mixpanel. This is useful for testing the integration with your Android app.
+621             The default value is false.
+622        -->
+623        <!--
+624        <meta-data android:name="com.mixpanel.android.MPConfig.TestMode"
+625            android:value="true" />
+626        -->
+627        <!--
+628             Set the following option to true if you wish to see the debug output from the Mixpanel Android
+629             library. This may be useful in determining when track calls go out or in-app notifications
+630             are fetched. The default value is false.
+631        -->
+632        <!--
+633        <meta-data android:name="com.mixpanel.android.MPConfig.EnableDebugLogging"
+634            android:value="true" />
+635        -->
+636        <!--
+637             This activity allows your application to show Mixpanel takeover in-app notifications.
+638             If you only wish to show mini in-app notifications, you do not need to declare this Activity.
+639             You may also specify a different theme to better fit the look and feel of your application.
+640        -->
+641        <!--
+642        <activity android:name="com.mixpanel.android.takeoverinapp.TakeoverInAppActivity"
+643                  android:theme="@style/com_mixpanel_android_TakeoverInAppActivityTheme" />
+644        -->
+645        <!-- This service will allow your application to register for and receive Mixpanel push notifications. -->
+646        <!--
+647        <service
+648            android:name="com.mixpanel.android.mpmetrics.MixpanelFCMMessagingService"
+649            android:enabled="true"
+650            android:exported="false">
+651            <intent-filter>
+652                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+653            </intent-filter>
+654        </service>
+655        -->
+656        <!-- This activity will allow your application to make tracking calls to the MixpanelAPI for notification interactions -->
+657        <activity
+657-->[com.mixpanel.android:mixpanel-android:5.9.6] /home/al-haj/.gradle/caches/transforms-2/files-2.1/a9f24499fad82aff6b43ac9a85eee747/jetified-mixpanel-android-5.9.6/AndroidManifest.xml:75:9-77:40
+658            android:name="com.mixpanel.android.mpmetrics.MixpanelNotificationRouteActivity"
+658-->[com.mixpanel.android:mixpanel-android:5.9.6] /home/al-haj/.gradle/caches/transforms-2/files-2.1/a9f24499fad82aff6b43ac9a85eee747/jetified-mixpanel-android-5.9.6/AndroidManifest.xml:76:13-92
+659            android:exported="false" />
+659-->[com.mixpanel.android:mixpanel-android:5.9.6] /home/al-haj/.gradle/caches/transforms-2/files-2.1/a9f24499fad82aff6b43ac9a85eee747/jetified-mixpanel-android-5.9.6/AndroidManifest.xml:77:13-37
+660
+661        <receiver android:name="com.mixpanel.android.mpmetrics.MixpanelPushNotificationDismissedReceiver" />
+661-->[com.mixpanel.android:mixpanel-android:5.9.6] /home/al-haj/.gradle/caches/transforms-2/files-2.1/a9f24499fad82aff6b43ac9a85eee747/jetified-mixpanel-android-5.9.6/AndroidManifest.xml:79:9-109
+661-->[com.mixpanel.android:mixpanel-android:5.9.6] /home/al-haj/.gradle/caches/transforms-2/files-2.1/a9f24499fad82aff6b43ac9a85eee747/jetified-mixpanel-android-5.9.6/AndroidManifest.xml:79:19-106
+662
+663        <uses-library
+663-->[com.mixpanel.android:mixpanel-android:5.9.6] /home/al-haj/.gradle/caches/transforms-2/files-2.1/a9f24499fad82aff6b43ac9a85eee747/jetified-mixpanel-android-5.9.6/AndroidManifest.xml:81:9-83:40
+664            android:name="android.test.runner"
+664-->[com.mixpanel.android:mixpanel-android:5.9.6] /home/al-haj/.gradle/caches/transforms-2/files-2.1/a9f24499fad82aff6b43ac9a85eee747/jetified-mixpanel-android-5.9.6/AndroidManifest.xml:82:13-47
+665            android:required="false" />
+665-->[com.mixpanel.android:mixpanel-android:5.9.6] /home/al-haj/.gradle/caches/transforms-2/files-2.1/a9f24499fad82aff6b43ac9a85eee747/jetified-mixpanel-android-5.9.6/AndroidManifest.xml:83:13-37
+666    </application>
+667
+668</manifest>

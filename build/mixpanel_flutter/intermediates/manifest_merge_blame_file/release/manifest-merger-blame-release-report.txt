@@ -1,0 +1,8 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.mixpanel.mixpanel_flutter" >
+4
+5    <uses-sdk android:minSdkVersion="16" />
+5-->/home/al-haj/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/mixpanel_flutter-1.0.1/android/src/main/AndroidManifest.xml
+6
+7</manifest>

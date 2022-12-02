@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/app/intermediates/incremental/mergeReleaseResources/merged.dir/values-v11/values-v11.xml",
+            "map": [
+                {
+                    "source": "/home/al-haj/.gradle/caches/transforms-2/files-2.1/a9f24499fad82aff6b43ac9a85eee747/jetified-mixpanel-android-5.9.6/res/values-v11/values-v11.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "9",
+                        "endColumns": "12",
+                        "endOffsets": "596"
+                    }
+                }
+            ]
+        }
+    ]
+}

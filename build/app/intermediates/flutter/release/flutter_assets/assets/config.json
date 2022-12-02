@@ -1,0 +1,52 @@
+{
+  "name": "",
+  "css_prefix_text": "",
+  "css_use_suffix": false,
+  "hinting": true,
+  "units_per_em": 1000,
+  "ascent": 850,
+  "glyphs": [
+    {
+      "uid": "779c5d0ac38ccb1cc8c91ff11f788d0d",
+      "css": "message",
+      "code": 59392,
+      "src": "material"
+    },
+    {
+      "uid": "993283c9447d547cdaa4618a9d157422",
+      "css": "facebook_square",
+      "code": 61570,
+      "src": "fontawesome5"
+    },
+    {
+      "uid": "c8a620baa7b8ea0db70149cb5da9b6ae",
+      "css": "facebook-1",
+      "code": 61594,
+      "src": "fontawesome5"
+    },
+    {
+      "uid": "c2b93e53641f7d8eb542120fa6996700",
+      "css": "facebook_f",
+      "code": 62366,
+      "src": "fontawesome5"
+    },
+    {
+      "uid": "4283eb9b8a2b741092e7e3e6c8943dae",
+      "css": "facebook_messenger",
+      "code": 62367,
+      "src": "fontawesome5"
+    },
+    {
+      "uid": "47bd87a650e95b97f947d275ed968efe",
+      "css": "facebook-squared",
+      "code": 62222,
+      "src": "entypo"
+    },
+    {
+      "uid": "bc50457410acf467b8b5721240768742",
+      "css": "facebook",
+      "code": 62220,
+      "src": "entypo"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+R_DEF: Internal format may change without notice
+local
+id ad_advertiser
+id ad_attribution
+id ad_body
+id ad_call_to_action
+id ad_headline
+id ad_icon
+id ad_media
+id ad_price
+id ad_stars
+id ad_store
+id ad_view
+layout native_admob_banner_view
+layout native_admob_full_view
+string ad_label

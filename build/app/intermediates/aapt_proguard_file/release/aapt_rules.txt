@@ -1,0 +1,264 @@
+# Referenced at /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:68
+-keep class androidx.core.app.CoreComponentFactory { <init>(); }
+# Referenced at /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:590
+-keep class androidx.room.MultiInstanceInvalidationService { <init>(); }
+# Referenced at /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:506
+-keep class androidx.work.impl.WorkManagerInitializer { <init>(); }
+# Referenced at /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:530
+-keep class androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy { <init>(); }
+# Referenced at /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:540
+-keep class androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy { <init>(); }
+# Referenced at /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:560
+-keep class androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy { <init>(); }
+# Referenced at /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:550
+-keep class androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy { <init>(); }
+# Referenced at /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:580
+-keep class androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver { <init>(); }
+# Referenced at /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:569
+-keep class androidx.work.impl.background.systemalarm.RescheduleReceiver { <init>(); }
+# Referenced at /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:513
+-keep class androidx.work.impl.background.systemalarm.SystemAlarmService { <init>(); }
+# Referenced at /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:518
+-keep class androidx.work.impl.background.systemjob.SystemJobService { <init>(); }
+# Referenced at /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:525
+-keep class androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver { <init>(); }
+# Referenced at /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:497
+-keep class com.facebook.CampaignTrackingReceiver { <init>(); }
+# Referenced at /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:490
+-keep class com.facebook.CurrentAccessTokenExpirationBroadcastReceiver { <init>(); }
+# Referenced at /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:155
+-keep class com.facebook.CustomTabActivity { <init>(); }
+# Referenced at /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:475
+-keep class com.facebook.CustomTabMainActivity { <init>(); }
+# Referenced at /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:150
+-keep class com.facebook.FacebookActivity { <init>(); }
+# Referenced at /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:238
+-keep class com.facebook.ads.AudienceNetworkActivity { <init>(); }
+# Referenced at /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:244
+-keep class com.facebook.ads.AudienceNetworkContentProvider { <init>(); }
+# Referenced at /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:485
+-keep class com.facebook.internal.FacebookInitProvider { <init>(); }
+# Referenced at /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:169
+-keep class com.github.florent37.assets_audio_player.notification.CustomMediaButtonReceiver { <init>(); }
+# Referenced at /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:168
+-keep class com.github.florent37.assets_audio_player.notification.NotificationActionReceiver { <init>(); }
+# Referenced at /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:175
+-keep class com.github.florent37.assets_audio_player.notification.NotificationService { <init>(); }
+# Referenced at /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:593
+-keep class com.google.android.datatransport.runtime.backends.TransportBackendDiscovery { <init>(); }
+# Referenced at /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:606
+-keep class com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver { <init>(); }
+# Referenced at /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:600
+-keep class com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService { <init>(); }
+# Referenced at /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:348
+-keep class com.google.android.gms.ads.AdActivity { <init>(); }
+# Referenced at /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:360
+-keep class com.google.android.gms.ads.AdService { <init>(); }
+# Referenced at /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:354
+-keep class com.google.android.gms.ads.MobileAdsInitProvider { <init>(); }
+# Referenced at /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:258
+-keep class com.google.android.gms.auth.api.signin.RevocationBoundService { <init>(); }
+# Referenced at /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:249
+-keep class com.google.android.gms.auth.api.signin.internal.SignInHubActivity { <init>(); }
+# Referenced at /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:441
+-keep class com.google.android.gms.common.api.GoogleApiActivity { <init>(); }
+# Referenced at /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:343
+-keep class com.google.android.gms.measurement.AppMeasurementJobService { <init>(); }
+# Referenced at /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:333
+-keep class com.google.android.gms.measurement.AppMeasurementReceiver { <init>(); }
+# Referenced at /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:339
+-keep class com.google.android.gms.measurement.AppMeasurementService { <init>(); }
+# Referenced at /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:402
+-keep class com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService { <init>(); }
+# Referenced at /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:365
+-keep class com.google.firebase.auth.internal.GenericIdpActivity { <init>(); }
+# Referenced at /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:383
+-keep class com.google.firebase.auth.internal.RecaptchaActivity { <init>(); }
+# Referenced at /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:186
+-keep class com.google.firebase.components.ComponentDiscoveryService { <init>(); }
+# Referenced at /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:425
+-keep class com.google.firebase.iid.FirebaseInstanceIdReceiver { <init>(); }
+# Referenced at /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:416
+-keep class com.google.firebase.messaging.FirebaseMessagingService { <init>(); }
+# Referenced at /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:434
+-keep class com.google.firebase.provider.FirebaseInitProvider { <init>(); }
+# Referenced at /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:657
+-keep class com.mixpanel.android.mpmetrics.MixpanelNotificationRouteActivity { <init>(); }
+# Referenced at /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:661
+-keep class com.mixpanel.android.mpmetrics.MixpanelPushNotificationDismissedReceiver { <init>(); }
+# Referenced at /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:322
+-keep class com.onesignal.BootUpReceiver { <init>(); }
+# Referenced at /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:270
+-keep class com.onesignal.GcmBroadcastReceiver { <init>(); }
+# Referenced at /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:300
+-keep class com.onesignal.GcmIntentJobService { <init>(); }
+# Referenced at /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:299
+-keep class com.onesignal.GcmIntentService { <init>(); }
+# Referenced at /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:283
+-keep class com.onesignal.HmsMessageServiceOneSignal { <init>(); }
+# Referenced at /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:291
+-keep class com.onesignal.NotificationOpenedActivityHMS { <init>(); }
+# Referenced at /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:281
+-keep class com.onesignal.NotificationOpenedReceiver { <init>(); }
+# Referenced at /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:320
+-keep class com.onesignal.NotificationRestoreService { <init>(); }
+# Referenced at /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:316
+-keep class com.onesignal.PermissionsActivity { <init>(); }
+# Referenced at /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:303
+-keep class com.onesignal.RestoreJobService { <init>(); }
+# Referenced at /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:306
+-keep class com.onesignal.RestoreKickoffJobService { <init>(); }
+# Referenced at /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:312
+-keep class com.onesignal.SyncJobService { <init>(); }
+# Referenced at /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:309
+-keep class com.onesignal.SyncService { <init>(); }
+# Referenced at /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:328
+-keep class com.onesignal.UpgradeReceiver { <init>(); }
+# Referenced at /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:459
+-keep class com.pichillilorenzo.flutter_inappwebview.ChromeCustomTabs.ActionBroadcastReceiver { <init>(); }
+# Referenced at /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:454
+-keep class com.pichillilorenzo.flutter_inappwebview.ChromeCustomTabs.ChromeCustomTabsActivity { <init>(); }
+# Referenced at /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:450
+-keep class com.pichillilorenzo.flutter_inappwebview.InAppBrowser.InAppBrowserActivity { <init>(); }
+# Referenced at /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:78
+-keep class com.wiwmedia.wiwsport.MainActivity { <init>(); }
+# Referenced at /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:68
+-keep class io.flutter.app.FlutterApplication { <init>(); }
+# Referenced at /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:461
+-keep class io.flutter.plugins.share.ShareFileProvider { <init>(); }
+# Referenced at /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:471
+-keep class io.flutter.plugins.urllauncher.WebViewActivity { <init>(); }
+# Referenced at /home/al-haj/.gradle/caches/transforms-2/files-2.1/8bfe134d105ca3498fb2863227bd0901/appcompat-1.0.2/res/layout/abc_alert_dialog_button_bar_material.xml:43
+# Referenced at /home/al-haj/.gradle/caches/transforms-2/files-2.1/8bfe134d105ca3498fb2863227bd0901/appcompat-1.0.2/res/layout/abc_alert_dialog_material.xml:52
+# Referenced at /home/al-haj/.gradle/caches/transforms-2/files-2.1/8bfe134d105ca3498fb2863227bd0901/appcompat-1.0.2/res/layout/abc_alert_dialog_title_material.xml:56
+-keep class android.widget.Space { <init>(...); }
+
+# Referenced at /home/al-haj/.gradle/caches/transforms-2/files-2.1/8bfe134d105ca3498fb2863227bd0901/appcompat-1.0.2/res/layout/abc_select_dialog_material.xml:23
+-keep class androidx.appcompat.app.AlertController$RecycleListView { <init>(...); }
+
+# Referenced at /home/al-haj/.gradle/caches/transforms-2/files-2.1/8bfe134d105ca3498fb2863227bd0901/appcompat-1.0.2/res/layout/abc_action_menu_item_layout.xml:17
+-keep class androidx.appcompat.view.menu.ActionMenuItemView { <init>(...); }
+
+# Referenced at /home/al-haj/.gradle/caches/transforms-2/files-2.1/8bfe134d105ca3498fb2863227bd0901/appcompat-1.0.2/res/layout/abc_expanded_menu_layout.xml:17
+-keep class androidx.appcompat.view.menu.ExpandedMenuView { <init>(...); }
+
+# Referenced at /home/al-haj/.gradle/caches/transforms-2/files-2.1/8bfe134d105ca3498fb2863227bd0901/appcompat-1.0.2/res/layout/abc_cascading_menu_item_layout.xml:20
+# Referenced at /home/al-haj/.gradle/caches/transforms-2/files-2.1/8bfe134d105ca3498fb2863227bd0901/appcompat-1.0.2/res/layout/abc_list_menu_item_layout.xml:17
+# Referenced at /home/al-haj/.gradle/caches/transforms-2/files-2.1/8bfe134d105ca3498fb2863227bd0901/appcompat-1.0.2/res/layout/abc_popup_menu_item_layout.xml:17
+-keep class androidx.appcompat.view.menu.ListMenuItemView { <init>(...); }
+
+# Referenced at /home/al-haj/.gradle/caches/transforms-2/files-2.1/8bfe134d105ca3498fb2863227bd0901/appcompat-1.0.2/res/layout/abc_screen_toolbar.xml:27
+-keep class androidx.appcompat.widget.ActionBarContainer { <init>(...); }
+
+# Referenced at /home/al-haj/.gradle/caches/transforms-2/files-2.1/8bfe134d105ca3498fb2863227bd0901/appcompat-1.0.2/res/layout/abc_action_mode_bar.xml:19
+# Referenced at /home/al-haj/.gradle/caches/transforms-2/files-2.1/8bfe134d105ca3498fb2863227bd0901/appcompat-1.0.2/res/layout/abc_screen_toolbar.xml:43
+-keep class androidx.appcompat.widget.ActionBarContextView { <init>(...); }
+
+# Referenced at /home/al-haj/.gradle/caches/transforms-2/files-2.1/8bfe134d105ca3498fb2863227bd0901/appcompat-1.0.2/res/layout/abc_screen_toolbar.xml:17
+-keep class androidx.appcompat.widget.ActionBarOverlayLayout { <init>(...); }
+
+# Referenced at /home/al-haj/.gradle/caches/transforms-2/files-2.1/8bfe134d105ca3498fb2863227bd0901/appcompat-1.0.2/res/layout/abc_action_menu_layout.xml:17
+-keep class androidx.appcompat.widget.ActionMenuView { <init>(...); }
+
+# Referenced at /home/al-haj/.gradle/caches/transforms-2/files-2.1/8bfe134d105ca3498fb2863227bd0901/appcompat-1.0.2/res/layout/abc_activity_chooser_view.xml:19
+-keep class androidx.appcompat.widget.ActivityChooserView$InnerLayout { <init>(...); }
+
+# Referenced at /home/al-haj/.gradle/caches/transforms-2/files-2.1/8bfe134d105ca3498fb2863227bd0901/appcompat-1.0.2/res/layout/abc_alert_dialog_material.xml:18
+-keep class androidx.appcompat.widget.AlertDialogLayout { <init>(...); }
+
+# Referenced at /home/al-haj/.gradle/caches/transforms-2/files-2.1/45d4636cce8ac0022668099566f7dc94/jetified-facebook-common-5.5.1/res/layout/com_facebook_device_auth_dialog_fragment.xml:45
+# Referenced at /home/al-haj/.gradle/caches/transforms-2/files-2.1/45d4636cce8ac0022668099566f7dc94/jetified-facebook-common-5.5.1/res/layout/com_facebook_smart_device_dialog_fragment.xml:47
+-keep class androidx.appcompat.widget.AppCompatImageView { <init>(...); }
+
+# Referenced at /home/al-haj/.gradle/caches/transforms-2/files-2.1/8bfe134d105ca3498fb2863227bd0901/appcompat-1.0.2/res/layout/abc_alert_dialog_button_bar_material.xml:26
+-keep class androidx.appcompat.widget.ButtonBarLayout { <init>(...); }
+
+# Referenced at /home/al-haj/.gradle/caches/transforms-2/files-2.1/8bfe134d105ca3498fb2863227bd0901/appcompat-1.0.2/res/layout/abc_screen_content_include.xml:19
+-keep class androidx.appcompat.widget.ContentFrameLayout { <init>(...); }
+
+# Referenced at /home/al-haj/.gradle/caches/transforms-2/files-2.1/8bfe134d105ca3498fb2863227bd0901/appcompat-1.0.2/res/layout/abc_alert_dialog_title_material.xml:45
+-keep class androidx.appcompat.widget.DialogTitle { <init>(...); }
+
+# Referenced at /home/al-haj/.gradle/caches/transforms-2/files-2.1/8bfe134d105ca3498fb2863227bd0901/appcompat-1.0.2/res/layout/abc_screen_simple_overlay_action_mode.xml:23
+-keep class androidx.appcompat.widget.FitWindowsFrameLayout { <init>(...); }
+
+# Referenced at /home/al-haj/.gradle/caches/transforms-2/files-2.1/8bfe134d105ca3498fb2863227bd0901/appcompat-1.0.2/res/layout/abc_dialog_title_material.xml:22
+# Referenced at /home/al-haj/.gradle/caches/transforms-2/files-2.1/8bfe134d105ca3498fb2863227bd0901/appcompat-1.0.2/res/layout/abc_screen_simple.xml:17
+-keep class androidx.appcompat.widget.FitWindowsLinearLayout { <init>(...); }
+
+# Referenced at /home/al-haj/.gradle/caches/transforms-2/files-2.1/8bfe134d105ca3498fb2863227bd0901/appcompat-1.0.2/res/layout/abc_search_view.xml:75
+-keep class androidx.appcompat.widget.SearchView$SearchAutoComplete { <init>(...); }
+
+# Referenced at /home/al-haj/.gradle/caches/transforms-2/files-2.1/8bfe134d105ca3498fb2863227bd0901/appcompat-1.0.2/res/layout/abc_screen_toolbar.xml:36
+-keep class androidx.appcompat.widget.Toolbar { <init>(...); }
+
+# Referenced at /home/al-haj/.gradle/caches/transforms-2/files-2.1/8bfe134d105ca3498fb2863227bd0901/appcompat-1.0.2/res/layout/abc_screen_simple.xml:25
+# Referenced at /home/al-haj/.gradle/caches/transforms-2/files-2.1/8bfe134d105ca3498fb2863227bd0901/appcompat-1.0.2/res/layout/abc_screen_simple_overlay_action_mode.xml:32
+-keep class androidx.appcompat.widget.ViewStubCompat { <init>(...); }
+
+# Referenced at /home/al-haj/.gradle/caches/transforms-2/files-2.1/4fbcc85f0943e1b9337e541f577df768/browser-1.2.0/res/layout/browser_actions_context_menu_page.xml:17
+-keep class androidx.browser.browseractions.BrowserActionsFallbackMenuView { <init>(...); }
+
+# Referenced at /home/al-haj/.gradle/caches/transforms-2/files-2.1/45d4636cce8ac0022668099566f7dc94/jetified-facebook-common-5.5.1/res/layout/com_facebook_device_auth_dialog_fragment.xml:22
+# Referenced at /home/al-haj/.gradle/caches/transforms-2/files-2.1/45d4636cce8ac0022668099566f7dc94/jetified-facebook-common-5.5.1/res/layout/com_facebook_smart_device_dialog_fragment.xml:22
+-keep class androidx.cardview.widget.CardView { <init>(...); }
+
+# Referenced at /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/native_video_view/intermediates/packaged_res/release/layout/exoplayer_layout.xml:2
+# Referenced at /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/native_video_view/intermediates/packaged_res/release/layout/video_layout.xml:2
+-keep class androidx.constraintlayout.widget.ConstraintLayout { <init>(...); }
+
+# Referenced at /home/al-haj/.gradle/caches/transforms-2/files-2.1/8bfe134d105ca3498fb2863227bd0901/appcompat-1.0.2/res/layout/abc_alert_dialog_material.xml:41
+-keep class androidx.core.widget.NestedScrollView { <init>(...); }
+
+# Referenced at /home/al-haj/.gradle/caches/transforms-2/files-2.1/377afa0870feaf0ea5cccd754b65e66c/jetified-core-10.0.3/res/layout/ayp_player_menu.xml:11
+# Referenced at /home/al-haj/.gradle/caches/transforms-2/files-2.1/8783aa8e3a52d1d57a743092dcbceb1f/jetified-exoplayer-ui-2.13.2/res/layout/exo_styled_settings_list.xml:16
+-keep class androidx.recyclerview.widget.RecyclerView { <init>(...); }
+
+# Referenced at /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/native_video_view/intermediates/packaged_res/release/layout/video_layout.xml:8
+-keep class cl.ceisufro.native_video_view.CustomVideoView { <init>(...); }
+
+# Referenced at /home/al-haj/.gradle/caches/transforms-2/files-2.1/8783aa8e3a52d1d57a743092dcbceb1f/jetified-exoplayer-ui-2.13.2/res/layout/exo_player_view.xml:18
+# Referenced at /home/al-haj/.gradle/caches/transforms-2/files-2.1/8783aa8e3a52d1d57a743092dcbceb1f/jetified-exoplayer-ui-2.13.2/res/layout/exo_styled_player_view.xml:18
+-keep class com.google.android.exoplayer2.ui.AspectRatioFrameLayout { <init>(...); }
+
+# Referenced at /home/al-haj/.gradle/caches/transforms-2/files-2.1/8783aa8e3a52d1d57a743092dcbceb1f/jetified-exoplayer-ui-2.13.2/res/layout/exo_player_view.xml:35
+# Referenced at /home/al-haj/.gradle/caches/transforms-2/files-2.1/8783aa8e3a52d1d57a743092dcbceb1f/jetified-exoplayer-ui-2.13.2/res/layout/exo_styled_player_view.xml:35
+-keep class com.google.android.exoplayer2.ui.SubtitleView { <init>(...); }
+
+# Referenced at /home/al-haj/.gradle/caches/transforms-2/files-2.1/8783aa8e3a52d1d57a743092dcbceb1f/jetified-exoplayer-ui-2.13.2/res/layout/exo_track_selection_dialog.xml:20
+-keep class com.google.android.exoplayer2.ui.TrackSelectionView { <init>(...); }
+
+# Referenced at /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/flutter_native_admob/intermediates/packaged_res/release/layout/native_admob_full_view.xml:30
+-keep class com.google.android.gms.ads.formats.MediaView { <init>(...); }
+
+# Referenced at /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/flutter_native_admob/intermediates/packaged_res/release/layout/native_admob_banner_view.xml:5
+# Referenced at /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/flutter_native_admob/intermediates/packaged_res/release/layout/native_admob_full_view.xml:5
+-keep class com.google.android.gms.ads.formats.UnifiedNativeAdView { <init>(...); }
+
+# Referenced at /home/al-haj/.gradle/caches/transforms-2/files-2.1/a9f24499fad82aff6b43ac9a85eee747/jetified-mixpanel-android-5.9.6/res/layout/com_mixpanel_android_activity_notification_full.xml:122
+-keep class com.mixpanel.android.takeoverinapp.FadingImageView { <init>(...); }
+
+# Referenced at /home/al-haj/.gradle/caches/transforms-2/files-2.1/a9f24499fad82aff6b43ac9a85eee747/jetified-mixpanel-android-5.9.6/res/layout/com_mixpanel_android_activity_notification_mini.xml:14
+-keep class com.mixpanel.android.takeoverinapp.MiniCircleImageView { <init>(...); }
+
+# Referenced at /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/flutter_inappwebview/intermediates/packaged_res/release/layout/activity_web_view.xml:13
+-keep class com.pichillilorenzo.flutter_inappwebview.InAppWebView.InAppWebView { <init>(...); }
+
+# Referenced at /home/al-haj/.gradle/caches/transforms-2/files-2.1/377afa0870feaf0ea5cccd754b65e66c/jetified-core-10.0.3/res/layout/ayp_default_player_ui.xml:110
+-keep class com.pierfrancescosoffritti.androidyoutubeplayer.core.ui.views.YouTubePlayerSeekBar { <init>(...); }
+
+# Referenced at /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/flutter_inappwebview/intermediates/packaged_res/release/menu/menu_main.xml:36
+-keepclassmembers class * { *** closeButtonClicked(android.view.MenuItem); }
+
+# Referenced at /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/flutter_inappwebview/intermediates/packaged_res/release/menu/menu_main.xml:8
+-keepclassmembers class * { *** goBackButtonClicked(android.view.MenuItem); }
+
+# Referenced at /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/flutter_inappwebview/intermediates/packaged_res/release/menu/menu_main.xml:15
+-keepclassmembers class * { *** goForwardButtonClicked(android.view.MenuItem); }
+
+# Referenced at /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/flutter_inappwebview/intermediates/packaged_res/release/menu/menu_main.xml:29
+-keepclassmembers class * { *** reloadButtonClicked(android.view.MenuItem); }
+
+# Referenced at /home/al-haj/AndroidStudioProjects/wiwmedia_wiwsport_v3/build/flutter_inappwebview/intermediates/packaged_res/release/menu/menu_main.xml:22
+-keepclassmembers class * { *** shareButtonClicked(android.view.MenuItem); }
+
